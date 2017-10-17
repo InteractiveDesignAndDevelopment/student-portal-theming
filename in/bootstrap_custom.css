@@ -1,0 +1,290 @@
+﻿
+/****************Custom classes for default theme(Blue theme)*********************/
+a {
+    color: #3e3e3e !important;
+    text-decoration: none;
+}
+
+    a:hover, a:focus {
+        color: #000000 !important;
+        text-decoration: none;
+    }
+
+.dropdown-menu {
+    background-color: #1F67A6 !important;
+    border: 1px solid rgba(0, 0, 0, .15);
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+    .dropdown-menu > li > a {
+        color: #99B7DE !important;
+        border: 1px solid #1F67A6 !important;
+    }
+
+        .dropdown-menu > li > a:hover,
+        .dropdown-menu > li > a:focus {
+            color: #FFFFFF !important;
+            background-color: #023463 !important;
+            border: 1px solid #0073FF !important;
+        }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #fff !important;
+    background-color: #1f67a6 !important;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+.tab-content > .tab-pane {
+    border: 2px solid #ddd !important;
+}
+
+.navbar-default {
+    background-color: #174e80 !important;
+    border-color: #e7e7e7;
+}
+
+    .navbar-default .navbar-text {
+        color: #fff !important;
+    }
+
+.panel-body {
+    background-color: #ffffff !important;
+}
+
+.panel-default > .panel-heading {
+    color: #333;
+    background-color: #f4f4f4 !important;
+    border-color: #ddd;
+    padding: 10px 0 10px 0;
+}
+
+#footer {
+    background-color: #1f67a6 !important;
+}
+
+    #footer a {
+        color: #c7c7c7 !important;
+    }
+
+        #footer a:hover {
+            color: #ffffff !important;
+        }
+
+    #footer span {
+        color: #ffffff !important;
+    }
+
+    #footer p {
+        color: #ffffff;
+    }
+
+.msg_content i {
+    color: #00284c !important;
+}
+
+.msg_content a {
+    color: #0c3458 !important;
+}
+
+    .msg_content a:hover {
+        color: #0c3458 !important;
+    }
+
+ul.QuickLinks_social-share li a {
+    /*color: #333333 !important;*/
+}
+
+.QuickLinks_social-share {
+    border: 1px solid #ddd;
+}
+
+ul.QuickLinks_social-share li a:hover {
+    background-color: rgba(31, 33, 37, 0.09) !important;
+}
+
+.submenu a {
+    color: #c7c7c7 !important;
+}
+
+.submenu_selected {
+    color: #c7c7c7 !important;
+}
+
+    .submenu_selected a {
+        color: #c7c7c7 !important;
+    }
+
+.submenu_hover a {
+    color: #ffffff !important;
+}
+
+    .submenu_hover a:hover, .submenu_selected a:hover {
+        color: #ffffff !important;
+    }
+
+.left_menu {
+    background-color: rgb(12, 52, 88) !important;
+}
+
+.left_menu_hover, .left_menu_selected {
+    background-color: rgb(1, 29, 53) !important;
+    color: #ffffff !important;
+}
+
+.login_link {
+    background-color: #174e80 !important;
+    color: #ffffff !important;
+}
+
+    .login_link:hover, .login_link:focus {
+        background-color: #174e80 !important;
+        color: #ffffff !important;
+    }
+
+.box1-innerbg1 {
+    background-color: #0C4C7C !important;
+}
+
+.lblstu {
+    background-color: #073659 !important;
+}
+
+    .lblstu a {
+        font-size: 15px;
+        color: #F8F8F8 !important;
+    }
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+    .btn-primary:hover {
+        color: #fff !important;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+
+#cmcStudentMsgTray ul li a:hover, #cmcStudentMsgTray ul li a:focus {
+    background-color: #174e80;
+    color: #ffffff !important;
+}
+
+#cmcStudentMsgTray ul li a.cmcTrayTabActive {
+    background-color: #174e80 !important;
+    color: #ffffff !important;
+}
+/******dashboard*******/
+
+.small-box {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 3px solid rgb(244, 244, 244) !important;
+}
+
+.bg-blue {
+    background-color: #1f67a6 !important;
+}
+
+.small-box .icon {
+    color: rgb(113, 199, 248);
+}
+
+.icon-big {
+    color: rgb(113, 199, 248);
+}
+
+.small-box > .small-box-footer {
+    color: #fff !important;
+    background: rgb(12, 52, 88) !important;
+}
+
+    .small-box > .small-box-footer:hover {
+        color: #fff;
+        background: rgb(0, 37, 70) !important;
+    }
+
+/******webpart text color*******/
+.wp_txt {
+    font-size: 12px;
+    color: #ffffff !important;
+}
+
+    .wp_txt:hover {
+        font-size: 12px;
+        color: #dddddd !important;
+    }
+
+    .wp_txt a {
+        color: #ffffff !important;
+    }
+     .wp_txt:focus {
+        color: #ffffff !important;
+    }
+/******Dashboard end******/
+.contentpart .btn {
+    background-color: #23689e;
+    color: #ffffff !important;
+}
+
+    .contentpart .btn:hover, .contentpart .btn:focus {
+        background-color: #114269;
+        color: #ffffff !important;
+    }
+
+
+/* Wizard custom classes used for applicant portal progress bar*/
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+}
+
+span.round-tab {
+    background: #fff;
+    border: 2px solid #c3c3c3;
+}
+
+    span.round-tab i {
+        color: #3a3a3a;
+    }
+
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #2697ff;
+}
+
+    .wizard li.active span.round-tab i {
+        color: #2697ff;
+    }
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard li:after {
+    border-bottom-color: #2697ff;
+}
+
+.wizard li.active:after {
+    border-bottom-color: #2697ff !important;
+}
+/* diabled button hover class */
+.btn-default.disabled:hover,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default:hover,
+.btn-default.disabled:focus,
+.btn-default[disabled]:focus,
+fieldset[disabled] .btn-default:focus,
+.btn-default.disabled.focus,
+.btn-default[disabled].focus,
+fieldset[disabled] .btn-default.focus {
+    background-color: #114269 !important;
+    color: #ffffff !important;
+}
+
+
