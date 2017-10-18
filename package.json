@@ -19,22 +19,18 @@
     "postbuild:csso:bootstrap": "csso out/bootstrap.css out/bootstrap.css",
     "postbuild:csso:bootstrap-custom": "csso out/bootstrap_custom.css out/bootstrap_custom.css",
     "postbuild:csso:main": "csso out/Main.css out/Main.css",
-    "clean": "rimraf out",
+    "clean": "rimraf out && mkdirp out",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Interactive Design & Development",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.1.5",
-    "cpy-cli": "^1.0.1",
-    "cssnano-cli": "^1.0.5",
     "csso-cli": "^1.1.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1",
-    "renamer": "^0.6.1",
-    "replace-in-file": "^3.0.0-beta.2",
     "rimraf": "^2.6.2"
   }
 }
