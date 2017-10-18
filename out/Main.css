@@ -3349,3 +3349,15 @@ span.round-tab {
     height: 40px; } }
 
 /**********End of MEDIA QUERIES*************/
+/* vuetrainportal.mercer.edu */
+.middle-text p {
+  color: #3f3c3b;
+  line-height: 150%; }
+
+.middle-text h3 {
+  color: #c95106; }
+
+.login_link {
+  padding: 20px 20px 20px 20px;
+  border-radius: 0;
+  font-size: 20px !important; }
