@@ -1,2 +1,20 @@
 @import 'colors';
 @import '../in/Main';
+
+
+/* vuetrainportal.mercer.edu */
+
+.middle-text p {
+    color: $warm-black; 
+    line-height: 150%;
+}
+
+.middle-text h3 {
+    color: $orange; 
+}
+
+.login_link {
+    padding: 20px 20px 20px 20px;
+    border-radius: 0;
+    font-size: 20px !important;
+}
