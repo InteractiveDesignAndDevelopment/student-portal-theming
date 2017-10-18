@@ -1,2 +1,12 @@
 @import 'colors';
 @import '../in/bootstrap_custom';
+
+/* vuetrainportal.mercer.edu */
+
+.navbar-default {
+    background-color: $warm-black;
+}
+
+.login_link {
+    background-color: $warm-black !important;
+}
