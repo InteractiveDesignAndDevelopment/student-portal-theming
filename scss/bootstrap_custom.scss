@@ -7,6 +7,8 @@
     background-color: $warm-black !important;
 }
 
+/* LOGIN AREA */
+
 .login_link {
     background-color: $warm-black !important;
 }
@@ -18,4 +20,17 @@ a:focus {
 
 .box1-innerbg1 {
     background-color: $warm-black !important;
+}
+
+.dropdown-menu {
+    background-color: $orange !important;
+}
+
+.lblstu a {
+    color: $light-grey !important;
+
+}
+
+#footer a:hover, #footer span, .navbar-default .navbar-text {
+    color: $light-grey !important;
 }
