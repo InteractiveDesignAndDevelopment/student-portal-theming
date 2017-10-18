@@ -1,9 +1,6 @@
 # Student Portal Theming
 
-The out of the box portal is very blue.
+Out of the box, the portal is very blue.
 This changes that.
 
-Todd did this
-
-and this is a change that Elizabeth is making. 
-
+This is targeting version 18.3.0.65
