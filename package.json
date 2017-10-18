@@ -15,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Interactive Design & Development",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.1.5",
     "cpy-cli": "^1.0.1",
