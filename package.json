@@ -1,15 +1,13 @@
 {
-  "name": "portal-custom-theme",
+  "name": "student-portal-theming",
   "version": "1.0.0",
   "description": "A custom portal theme",
+  "repository": "https://github.com/InteractiveDesignAndDevelopment/student-portal-theming.git",
   "scripts": {
-    "prebuild": "run-s clean && run-s prebuild:*",
-    "prebuild:create": "mkdirp out && mkdirp temp",
-    "prebuild:copy": "cpy * ../temp --cwd=in",
-    "prebuild:rename": "renamer --find 'temp/*.css' --replace 'temp/*.scss' --dry-run",
-    "build:replace-colors-with-variables": "node replace-colors-with-variables.js",
+    "prebuild": "run-s clean",
     "build": "run-s build:*",
     "build:scss-main": "node-sass scss/Main.scss out/Main.css",
+    "build:scss-bootstrap": "node-sass scss/bootstrap.scss out/bootstrap.css",
     "build:scss-bootstrap-custom": "node-sass scss/bootstrap_custom.scss out/bootstrap_custom.css",
     "clean": "rimraf out",
     "test": "echo \"Error: no test specified\" && exit 1"

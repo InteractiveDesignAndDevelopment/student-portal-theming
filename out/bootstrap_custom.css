@@ -8,26 +8,26 @@ a:hover, a:focus {
   text-decoration: none; }
 
 .dropdown-menu {
-  background-color: dodgerblue !important;
+  background-color: #1F67A6 !important;
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
 
 .dropdown-menu > li > a {
   color: #99B7DE !important;
-  border: 1px solid dodgerblue !important; }
+  border: 1px solid #1F67A6 !important; }
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #FFFFFF !important;
-  background-color: dodgerblue !important;
-  border: 1px solid dodgerblue !important; }
+  background-color: #023463 !important;
+  border: 1px solid #0073FF !important; }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #fff !important;
-  background-color: dodgerblue !important;
+  background-color: #1f67a6 !important;
   border: 1px solid #ddd;
   border-bottom-color: transparent; }
 
@@ -51,7 +51,7 @@ a:hover, a:focus {
   padding: 10px 0 10px 0; }
 
 #footer {
-  background-color: dodgerblue !important; }
+  background-color: #1f67a6 !important; }
 
 #footer a {
   color: #c7c7c7 !important; }
@@ -147,7 +147,7 @@ ul.QuickLinks_social-share li a:hover {
   border: 3px solid #f4f4f4 !important; }
 
 .bg-blue {
-  background-color: dodgerblue !important; }
+  background-color: #1f67a6 !important; }
 
 .small-box .icon {
   color: #71c7f8; }
