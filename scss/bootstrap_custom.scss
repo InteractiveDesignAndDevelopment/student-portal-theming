@@ -24,6 +24,7 @@ a:focus {
 
 .dropdown-menu {
     background-color: $orange !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
 
 .lblstu a {
@@ -32,5 +33,10 @@ a:focus {
 }
 
 #footer a:hover, #footer span, .navbar-default .navbar-text {
+    color: $light-grey !important;
+}
+
+.login_link:focus, .login_link:hover {
+    background-color: $orange !important;
     color: $light-grey !important;
 }
