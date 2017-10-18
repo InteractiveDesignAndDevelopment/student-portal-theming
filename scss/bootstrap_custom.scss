@@ -1,6 +1,42 @@
 @import 'colors';
 @import '../in/bootstrap_custom';
 
+/* vuetrainportal.mercer.edu */
+
 .navbar-default {
-  background-color: $warm-black !important;
+    background-color: $warm-black !important;
+}
+
+/* LOGIN AREA */
+
+.login_link {
+    background-color: $warm-black !important;
+}
+
+a:hover,
+a:focus {
+  color: $orange;
+}
+
+.box1-innerbg1 {
+    background-color: $warm-black !important;
+}
+
+.dropdown-menu {
+    background-color: $orange !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+.lblstu a {
+    color: $light-grey !important;
+
+}
+
+#footer a:hover, #footer span, .navbar-default .navbar-text {
+    color: $light-grey !important;
+}
+
+.login_link:focus, .login_link:hover {
+    background-color: $orange !important;
+    color: $light-grey !important;
 }
