@@ -4,13 +4,13 @@
 /* vuetrainportal.mercer.edu */
 
 .navbar-default {
-    background-color: $warm-black !important;
+    background-color: $warm-black;
 }
 
 /* LOGIN AREA */
 
 .login_link {
-    background-color: $warm-black !important;
+    background-color: $warm-black;
 }
 
 a:hover,
@@ -19,24 +19,24 @@ a:focus {
 }
 
 .box1-innerbg1 {
-    background-color: $warm-black !important;
+    background-color: $warm-black;
 }
 
 .dropdown-menu {
-    background-color: $orange !important;
+    background-color: $orange;
     box-shadow: 0 6px 20px rgba(0,0,0,0.5);
 }
 
 .lblstu a {
-    color: $light-grey !important;
+    color: $light-grey;
 
 }
 
 #footer a:hover, #footer span, .navbar-default .navbar-text {
-    color: $light-grey !important;
+    color: $light-grey;
 }
 
 .login_link:focus, .login_link:hover {
-    background-color: $orange !important;
-    color: $light-grey !important;
+    background-color: $orange;
+    color: $light-grey;
 }

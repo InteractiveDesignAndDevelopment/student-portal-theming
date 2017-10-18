@@ -13,7 +13,7 @@
     "postbuild": "run-s postbuild:*",
     "postbuild:post-css": "run-p postbuild:post-css:*",
     "postbuild:post-css:bootstrap": "postcss out/bootstrap.css -u autoprefixer -o out/bootstrap.css",
-    "postbuild:post-css:bootstrap_custom": "postcss out/bootstrap_custom.css -u autoprefixer -o out/bootstrap_custom.css",
+    "postbuild:post-css:bootstrap_custom": "postcss out/bootstrap_custom.css -u autoprefixer postcss-safe-important -o out/bootstrap_custom.css",
     "postbuild:post-css:main": "postcss out/main.css -u autoprefixer -o out/main.css",
     "postbuild:csso": "run-p postbuild:csso:*",
     "postbuild:csso:bootstrap": "csso out/bootstrap.css out/bootstrap.css",
@@ -31,6 +31,7 @@
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.1.1",
     "postcss-cli": "^4.1.1",
+    "postcss-safe-important": "^1.0.6",
     "rimraf": "^2.6.2"
   }
 }
