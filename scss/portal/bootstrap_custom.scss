@@ -101,3 +101,13 @@ a:focus {
 }
 
 /* My Home Page Styling */
+
+.navbar-text:hover {
+    color: $light-grey;
+}
+
+/* Right Hand Panel Styling */ 
+
+.panel-body {
+    background-color: $light-grey;
+}
