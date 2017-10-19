@@ -21,7 +21,7 @@
     color: none;
 }
 .navbar-text {
-    color: none;
+    color: $warm-black;
 }
 
 /* TEXT */ 
@@ -35,8 +35,16 @@
 .wp_txt a {
     color: $orange; 
     font-weight: bold;
+    font-size: 16px;
 }
 
+a {
+    color: $orange; 
+}
+
+#header_no_print a {
+    color: $light-grey; 
+}
 
 /* LOGIN AREA */
 
