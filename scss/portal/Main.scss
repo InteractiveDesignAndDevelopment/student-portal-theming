@@ -63,15 +63,12 @@
 
 #_ctl0_leftNav {
     background-color: $light-grey;
+    border-right: 1px solid $grey; 
 }
 
-
-//.left_menu_hover, .left_menu_selected {
-//    padding: 10px!important;
-//    background-color: rgba(0,0,0,0.52)!important;
-//    cursor: pointer;
-//
-//}
+.left_menu_hover, .left_menu_selected {
+    color: $light-grey;
+} 
 
 /* My Home Page Styling | Whole Page */
 

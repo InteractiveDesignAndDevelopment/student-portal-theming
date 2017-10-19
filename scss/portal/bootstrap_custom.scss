@@ -100,6 +100,12 @@ a:focus {
     color: $warm-black; 
 }
 
+.btn-primary, .btn-primary:hover {
+    color: $light-grey;
+    background-color: $orange;
+    border-color: $darker-orange;
+}
+
 /* My Home Page Styling */
 
 .navbar-text:hover {
