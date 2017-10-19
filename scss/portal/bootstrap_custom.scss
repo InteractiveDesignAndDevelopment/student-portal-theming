@@ -48,7 +48,7 @@ a {
 }
 
 #header_no_print a {
-    color: $light-grey; 
+    color: $orange; 
 }
 
 .social-share .navbar-text {
@@ -113,6 +113,14 @@ a:focus {
     color: $light-grey;
 }
 
+ul.QuickLinks_social-share li a:hover {
+    background-color: darken($light-grey, 20%); 
+}
+
+.small-box{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 /* Right Hand Panel Styling */ 
 
 .panel-body {
@@ -124,3 +132,4 @@ a:focus {
 .submenu a, .submenu_selected, .submenu_selected a {
     color: $warm-black
 }
+
