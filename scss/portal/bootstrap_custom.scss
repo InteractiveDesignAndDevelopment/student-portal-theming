@@ -18,7 +18,25 @@
 
 .navbar-default {
     background-color: none;
+    color: none;
 }
+.navbar-text {
+    color: none;
+}
+
+/* TEXT */ 
+
+.wp_txt, .wp_txt:hover {
+    color: $warm-black; 
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.wp_txt a {
+    color: $orange; 
+    font-weight: bold;
+}
+
 
 /* LOGIN AREA */
 
@@ -48,7 +66,7 @@ a:focus {
     background-color: none;
 }
 
-#footer a:hover, #footer span, .navbar-default .navbar-text {
+#footer a:hover, #footer span, .navbar-text {
     color: $light-grey;
 }
 
@@ -63,6 +81,7 @@ a:focus {
 
 .left_menu {
     background-color: $light-grey;
+    color: $warm-black; 
 }
 
 /* My Home Page Styling */

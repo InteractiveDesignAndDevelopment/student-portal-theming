@@ -24,6 +24,17 @@
 .navbar {
     background-color: $warm-black;
 }
+
+/* TEXT */
+
+.link2, .link2_red, .link4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+
+
 /* LOGIN AREA */
 
 .login_link {
@@ -54,12 +65,12 @@
     background-color: $light-grey;
 }
 
-.left_menu_hover, .left_menu_selected {
-    padding: 10px!important;
-    background-color: rgba(0,0,0,0.52)!important;
-    cursor: pointer;
-
-}
+//.left_menu_hover, .left_menu_selected {
+//    padding: 10px!important;
+//    background-color: rgba(0,0,0,0.52)!important;
+//    cursor: pointer;
+//
+//}
 
 /* My Home Page Styling | Whole Page */
 #header_no_print {
