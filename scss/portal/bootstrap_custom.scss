@@ -50,6 +50,10 @@ a {
     color: $light-grey; 
 }
 
+.social-share .navbar-text {
+    color: $light-grey;
+}
+
 /* LOGIN AREA */
 
 .login_link {
@@ -78,7 +82,7 @@ a:focus {
     background-color: none;
 }
 
-#footer a:hover, #footer span, .navbar-text {
+#footer a:hover, #footer span, {
     color: $light-grey;
 }
 
