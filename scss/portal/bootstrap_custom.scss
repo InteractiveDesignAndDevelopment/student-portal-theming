@@ -20,9 +20,10 @@
     background-color: none;
     color: none;
 }
-.navbar-text {
+/*.navbar-text {
     color: $warm-black;
-}
+}*/
+
 .navbar-default .navbar-text {
     color: $warm-black;
 }
@@ -100,4 +101,26 @@ a:focus {
     color: $warm-black; 
 }
 
+.btn-primary, .btn-primary:hover {
+    color: $light-grey;
+    background-color: $orange;
+    border-color: $darker-orange;
+}
+
 /* My Home Page Styling */
+
+.navbar-text:hover {
+    color: $light-grey;
+}
+
+/* Right Hand Panel Styling */ 
+
+.panel-body {
+    background-color: $light-grey;
+}
+
+/* Left Hand Navigation Styling */ 
+
+.submenu a, .submenu_selected, .submenu_selected a {
+    color: $warm-black
+}
