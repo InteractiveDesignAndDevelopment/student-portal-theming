@@ -20,9 +20,10 @@
     background-color: none;
     color: none;
 }
-.navbar-text {
+/*.navbar-text {
     color: $warm-black;
-}
+}*/
+
 .navbar-default .navbar-text {
     color: $warm-black;
 }
@@ -116,4 +117,10 @@ a:focus {
 
 .panel-body {
     background-color: $light-grey;
+}
+
+/* Left Hand Navigation Styling */ 
+
+.submenu a, .submenu_selected, .submenu_selected a {
+    color: $warm-black
 }

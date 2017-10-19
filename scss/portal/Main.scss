@@ -73,8 +73,8 @@
 /* My Home Page Styling | Whole Page */
 
 #header_no_print {
-    background-color: $orange;
-    color: $light-grey; 
+    background-color: $grey;
+    color: $orange; 
 } 
 
 #content {
@@ -83,6 +83,10 @@
 
 .tab_icon {
     background-color: $orange;
+}
+
+div.QuickLinks_social {
+    background-color: $light-grey;
 }
 /* My Home Page Styling | Cards */
 
@@ -95,3 +99,4 @@
 .small-box-footer {
     visibility: hidden;
 }
+
