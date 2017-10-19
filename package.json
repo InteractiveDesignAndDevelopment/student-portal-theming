@@ -14,7 +14,7 @@
     "postbuild:post-css": "run-p postbuild:post-css:*",
     "postbuild:post-css:portal-bootstrap": "postcss out/portal/bootstrap.css -u autoprefixer -o out/portal/bootstrap.css",
     "postbuild:post-css:portal-bootstrap_custom": "postcss out/portal/bootstrap_custom.css -u autoprefixer postcss-safe-important -o out/portal/bootstrap_custom.css",
-    "postbuild:post-css:portal-main": "postcss out/portal/main.css -u autoprefixer -o out/main.css",
+    "postbuild:post-css:portal-main": "postcss out/portal/main.css -u autoprefixer -o out/portal/main.css",
     "postbuild:csso": "run-p postbuild:csso:*",
     "postbuild:csso:portal-bootstrap": "csso out/portal/bootstrap.css out/portal/bootstrap.css",
     "postbuild:csso:portal-bootstrap-custom": "csso out/portal/bootstrap_custom.css out/portal/bootstrap_custom.css",
