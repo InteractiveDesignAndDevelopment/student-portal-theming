@@ -88,6 +88,11 @@
 div.QuickLinks_social {
     background-color: $light-grey;
 }
+
+ul.QuickLinks_social-share li a:hover {
+    background-color: darken($light-grey, 20%); 
+}
+
 /* My Home Page Styling | Cards */
 
 .card {
