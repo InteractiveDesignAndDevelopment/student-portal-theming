@@ -97,8 +97,12 @@ ul.QuickLinks_social-share li a:hover {
 
 .card {
     background-color: $light-grey;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    position: inherit;
+    padding: 10px;
+}
 
+.bg-blue {
+    background-color: none;
 }
 
 .small-box-footer {
