@@ -31,9 +31,16 @@ a:focus {
     color: $light-grey;
 
 }
+.lblstu {
+    background-color: none;
+}
 
 #footer a:hover, #footer span, .navbar-default .navbar-text {
     color: $light-grey;
+}
+
+#footer {
+    background-color: $warm-black;
 }
 
 .login_link:focus, .login_link:hover {
