@@ -48,16 +48,37 @@
 
 /* My Home Page Styling */
 
+/* My Home Page Styling > Left Menu */
+
 #_ctl0_leftNav {
     background-color: $light-grey;
+}
+
+.left_menu_hover, .left_menu_selected {
+    padding: 10px!important;
+    background-color: rgba(0,0,0,0.52)!important;
+    cursor: pointer;
+
+}
+
+/* My Home Page Styling | Whole Page */
+#header_no_print {
+    background-color: $orange;
+    color: $light-grey; 
 }
 
 #content {
     background-color: $grey; 
 }
 
+/* My Home Page Styling | Cards */
+
 .card {
     background-color: $light-grey;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+
+.small-box-footer {
+    visibility: hidden;
 }
