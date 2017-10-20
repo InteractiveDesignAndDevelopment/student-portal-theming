@@ -25,6 +25,8 @@
     background-color: $warm-black;
 }
 
+
+
 /* TEXT */
 
 .link2, .link2_red, .link4 {
@@ -41,11 +43,16 @@
     padding: 20px 20px 20px 20px;
     border-radius: 0;
     font-size: 20px;
+    display: inline-block
 }
 
 .land_page_dropdown {
     padding: 0;
     margin: 0;
+}
+
+.middle-text.divcenter {
+    display: inline-block;
 }
 
 .lblstu a {
