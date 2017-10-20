@@ -114,6 +114,16 @@ a:focus {
     border: 1px solid $darkest-orange;
  }
 
+ .contentpart .btn {
+    background-color: $orange;
+    color: $light-grey;
+ }
+
+ .contentpart .btn:hover, .btn-default.focus, .btn-default:focus, .btn-default:hover {
+    background-color: $darker-orange;
+    color: $light-grey;
+ }
+ 
 /* My Home Page Styling */
 
 .navbar-text:hover {
