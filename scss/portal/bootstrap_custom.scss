@@ -105,6 +105,13 @@ a:focus {
     color: $warm-black; 
 }
 
+.panel > .panel {
+    box-shadow: none;
+}
+
+
+/* BUTTONS */
+
 
 .btn, .btn-primary {
     background: $orange;

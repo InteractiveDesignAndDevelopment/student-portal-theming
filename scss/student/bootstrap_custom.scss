@@ -93,10 +93,12 @@ a:focus {
     color: $light-grey;
 }
 
-.left_menu {
-    background-color: $light-grey;
-    color: $warm-black; 
+
+.panel > .panel {
+    box-shadow: none;
 }
+
+
 
 .btn, .btn-primary, .btn-sm {
     background: $orange;
@@ -123,7 +125,7 @@ a:focus {
     background-color: $darker-orange;
     color: $light-grey;
  }
- 
+
 /* My Home Page Styling */
 
 .navbar-text:hover {
@@ -154,3 +156,7 @@ ul.QuickLinks_social-share li a:hover {
     color: $warm-black
 }
 
+.left_menu {
+    background-color: $light-grey;
+    color: $warm-black; 
+}

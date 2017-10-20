@@ -128,5 +128,8 @@ table[id^="WebPart"]>tbody>tr>td {
 .divpnlColorKeys {
     height: 28px;
 
-    }
+}
 
+#footer, .footer {
+    border-top: none;
+}
