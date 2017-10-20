@@ -20,9 +20,6 @@
     background-color: none;
     color: none;
 }
-/*.navbar-text {
-    color: $warm-black;
-}*/
 
 .navbar-default .navbar-text {
     color: $warm-black;
@@ -101,7 +98,7 @@ a:focus {
     color: $warm-black; 
 }
 
-.btn, .btn-primary {
+.btn, .btn-primary, .btn-sm {
     background: $orange;
     border: 1px solid $darker-orange;
     box-sizing: border-box;
@@ -112,7 +109,7 @@ a:focus {
     font-size: 16px;
  }
 
- .btn, .btn-primary:hover {
+ .btn:hover, .btn-primary:hover, .btn-sm:hover {
     background: $darker-orange;
     border: 1px solid $darkest-orange;
  }

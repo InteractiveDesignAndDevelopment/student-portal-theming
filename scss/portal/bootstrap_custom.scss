@@ -117,15 +117,11 @@ a:focus {
     font-size: 16px;
  }
 
- .btn, .btn-primary:hover {
+ .btn:hover, .btn-primary:hover {
     background: $darker-orange;
     border: 1px solid $darkest-orange;
  }
 /* My Home Page Styling */
-
-//.navbar-text:hover {
-  //  color: $light-grey;
-//}
 
 ul.QuickLinks_social-share li a:hover {
     background-color: darken($light-grey, 20%); 
