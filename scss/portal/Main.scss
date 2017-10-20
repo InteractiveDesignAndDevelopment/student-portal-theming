@@ -109,3 +109,24 @@ ul.QuickLinks_social-share li a:hover {
     visibility: hidden;
 }
 
+td[id^="WebPartTitle"] {
+    color: $light-grey;
+    background-color: $warm-black;
+    padding: 10px 0px 10px 0px;
+    line-height: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+table[id^="WebPart"]>tbody>tr>td {
+    padding: 5px 5px 0 5px;
+}
+
+/* Calendar */ 
+
+.divpnlColorKeys {
+    height: 28px;
+
+    }
+
