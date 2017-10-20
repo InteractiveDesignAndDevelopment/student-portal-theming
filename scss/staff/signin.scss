@@ -1,0 +1,48 @@
+/*
+ * signin.scss
+ *
+ * Author: Interactive Design & Development
+ * Author URI: https://github.com/InteractiveDesignAndDevelopment
+ * Description: Style overrides for the /staff/signin.css file
+ */
+
+@import '../colors';
+@import '../../in/staff/signin';
+
+/* vuetrainportal.mercer.edu */
+
+.band {
+    visibility: hidden;
+}
+
+body {
+    background-color: $grey;
+}
+
+.login_box {
+    background-color: $light-grey;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-control {
+    font-size: 16px;
+    border-bottom: 1px solid $grey;
+    color: $warm-black;
+    background-color: $light-grey;
+}
+
+.btn-login {
+    background-color: $orange;
+    border: 1px solid $darker-orange;
+    padding: 5px;
+    color: $light-grey;
+    font-size: 15px;
+}
+
+.btn-login:hover {
+    background-color: $darker-orange;
+}
+
+.page-header {
+    visibility: hidden;
+}

@@ -1,0 +1,194 @@
+﻿* {
+    font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+    color: #1F1F1F;
+    font-size: 13px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.band {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 400px;
+    vertical-align: middle;
+    background-color: #CCCCCC;
+    margin: -200px 0 0 0;
+}
+
+.outter {
+    padding: 0px;
+    margin: 25px 25px 5px 25px;
+}
+
+.logoImage {
+    width: 100%;
+    width: 300px;
+    height: 57px;
+}
+
+.login_box {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    z-index: 15;
+    background-color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    margin: -150px 0 0 -175px;
+}
+
+.login_control {
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.pass_control {
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+.control {
+    color: #000;
+    margin: 10px;
+}
+
+
+.form-control {
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    border-radius: 0px;
+    color: #1F1F1F;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+    .form-control:focus {
+        border: none;
+        border-bottom: 1px solid #162E55;
+        border-radius: 0px;
+        /*margin-bottom: 10px;*/
+        outline: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+
+.btn-login {
+    background-color: #162E55;
+    border: 1px;
+    border-radius: 0px;
+    margin: 2px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #FFFFFF;
+    width: 98%;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+    .btn-login:hover, .btn-login:focus {
+        background-color: #1C3A6C;
+        outline-width: 1px;
+        outline-style: solid;
+    }
+
+.lblClass {
+    color: #16499a;
+}
+
+.k-i-close {
+    vertical-align: text-top;
+    margin-top: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+/** input wrapper */
+
+.input-wrapper {
+    margin-bottom: 10px !important;
+}
+
+
+    .input-wrapper label {
+        z-index: 1;
+        position: absolute;
+        padding: 10px 12px;
+        font-size: 15px;
+        font-weight: normal;
+        line-height: 10px;
+        color: #999;
+        overflow: hidden;
+        left: 6%;
+    }
+
+.input-width {
+    width: 310px !important;
+}
+
+.input-wrapper.focus label {
+    filter: alpha(opacity=50);
+    opacity: 1;
+}
+
+.input-wrapper.filled label {
+    display: none;
+}
+
+.toast-error {
+    background-color: #ffe0d9;
+    color: #ef470a;
+    border-color: #ffb7a8;
+    display: block;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    position: absolute;
+    opacity: 1;
+}
+
+#toast-container > .toast {
+    background-image: none !important;
+}
+
+    #toast-container > .toast:before {
+        position: fixed;
+        font-family: FontAwesome;
+        font-size: 24px;
+        line-height: 18px;
+        float: left;
+        color: #FFF;
+        padding-right: 0.5em;
+        margin: auto 0.5em auto -1.5em;
+    }
+
+#toast-container > .toast-info:before {
+    content: "\f005";
+}
+
+.closeNotification {
+    vertical-align: text-top;
+    margin-top: 3px;
+    margin-left: 3px;
+    cursor: pointer;
+    cursor: hand;
+}
