@@ -28,7 +28,7 @@ body, p {
     background-color: none;
  }
 
- .btn-primary {
+ .btn, .btn-primary {
     background: $orange;
     border: 1px solid $darkest-orange;
     box-sizing: border-box;
@@ -37,6 +37,10 @@ body, p {
     border-radius: 0;
     padding: 15px;
     font-size: 16px;
+ }
+
+ .btn, .btn-primary:hover {
+    background: $darker-orange;
  }
 
  body {
