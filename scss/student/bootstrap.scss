@@ -42,7 +42,26 @@ body, p {
  body {
      color: $warm-black;
  }
-
+/*STUDENT CHANGES*/
  .panel {
-     background-color: $light-grey;
+    background-color: $light-grey;
+    margin: 0;
+    border: none;
+    border-radius: 0;
  }
+
+ .login_text {
+     visibility: hidden;
+ }
+
+ span#ContentPlaceholder_lnkLine {
+    visibility: hidden;
+}
+
+img[alt^="Logo"] {
+    max-width: 300px;
+}
+
+.login_img {
+    width: 100%;
+}

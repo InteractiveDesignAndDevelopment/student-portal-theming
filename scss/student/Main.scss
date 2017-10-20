@@ -10,7 +10,11 @@
 @import '../../in/student/Main';
 
 
-/* vuetrainportal.mercer.edu */
+/* GENERAL STYLING */
+
+#wrapper {
+    background-color: $grey;
+}
 
 .middle-text p {
     color: $warm-black; 
@@ -35,7 +39,7 @@
 
 
 
-/* LOGIN AREA */
+/* LOGIN and BUTTONS */
 
 .login_link {
     padding: 20px 20px 20px 20px;
@@ -56,6 +60,7 @@
 .lblstulbl {
     font-size: 16px;
 }
+
 
 /* My Home Page Styling */
 
@@ -130,3 +135,19 @@ table[id^="WebPart"]>tbody>tr>td {
 
     }
 
+
+    /*STUDENT CHANGES*/
+
+    .form-control {
+        border-radius: 0;
+    }
+
+    .login_box {
+        padding: 0;
+
+    }
+
+    .back_home {
+        margin-bottom: 2rem;
+        padding-right: 0;
+    }
