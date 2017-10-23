@@ -27,6 +27,9 @@
 .navbar-default .navbar-text {
     color: none;
 }
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: none;    
+}
 
 .navbar-text:hover {
     color: none;
@@ -105,6 +108,9 @@ a:focus {
     color: $warm-black; 
 }
 
+.contentleft {
+        background-color: $light-grey;
+}
 .panel > .panel {
     box-shadow: none;
 }
