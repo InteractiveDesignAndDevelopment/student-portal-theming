@@ -21,11 +21,14 @@
     color: $orange; 
 }
 
+
 .navbar {
     background-color: $warm-black;
 }
 
-
+.navbar-brand1 {
+    max-width: 20rem;
+}
 
 /* TEXT */
 
@@ -53,6 +56,16 @@
 
 .middle-text.divcenter {
     display: inline-block;
+    background-color: $light-grey; 
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .middle-text {
+        margin-top: 4rem;
+    }
+    
 }
 
 .lblstu a {
