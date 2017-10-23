@@ -10,13 +10,14 @@
 @import '../../in/portal/Main';
 
 
-  @font-face {
+@font-face {
     font-family: 'open_sansregular';
     src: url('../fonts/orkney/orkney-regular-webfont.woff2') format('woff2'),
          url('../fonts/orkney/orkney-regular-webfont.woff') format('woff');
     font-weight: 400;
     font-style: normal;
-  }
+}
+
 /* vuetrainportal.mercer.edu */
 
 .middle-text p {
