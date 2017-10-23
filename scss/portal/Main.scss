@@ -21,8 +21,13 @@
     color: $orange; 
 }
 
+
 .navbar {
     background-color: $warm-black;
+}
+
+.navbar-brand1 {
+    max-width: 20rem;
 }
 
 /* TEXT */
@@ -41,11 +46,26 @@
     padding: 20px 20px 20px 20px;
     border-radius: 0;
     font-size: 20px;
+    display: inline-block
 }
 
 .land_page_dropdown {
     padding: 0;
     margin: 0;
+}
+
+.middle-text.divcenter {
+    display: inline-block;
+    background-color: $light-grey; 
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .middle-text {
+        margin-top: 4rem;
+    }
+    
 }
 
 .lblstu a {
@@ -128,5 +148,8 @@ table[id^="WebPart"]>tbody>tr>td {
 .divpnlColorKeys {
     height: 28px;
 
-    }
+}
 
+#footer, .footer {
+    border-top: none;
+}

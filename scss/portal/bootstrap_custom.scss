@@ -28,6 +28,10 @@
     color: $warm-black;
 }
 
+.navbar-text:hover {
+    color: none;
+}
+
 /* TEXT */ 
 
 .wp_txt, .wp_txt:hover {
@@ -101,17 +105,41 @@ a:focus {
     color: $warm-black; 
 }
 
-.btn-primary, .btn-primary:hover {
-    color: $light-grey;
-    background-color: $orange;
-    border-color: $darker-orange;
+.panel > .panel {
+    box-shadow: none;
 }
+
+
+/* BUTTONS */
+
+
+.btn, .btn-primary {
+    background: $orange;
+    border: 1px solid $darker-orange;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: $light-grey;
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+ }
+
+ .btn:hover, .btn-primary:hover {
+    background: $darker-orange;
+    border: 1px solid $darkest-orange;
+ }
+
+ .contentpart .btn {
+    background-color: $orange;
+    color: $light-grey;
+ }
+
+ .contentpart .btn:hover, .btn-default.focus, .btn-default:focus, .btn-default:hover {
+    background-color: $darker-orange;
+    color: $light-grey;
+ }
 
 /* My Home Page Styling */
-
-.navbar-text:hover {
-    color: $light-grey;
-}
 
 ul.QuickLinks_social-share li a:hover {
     background-color: darken($light-grey, 20%); 

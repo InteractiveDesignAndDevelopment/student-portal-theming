@@ -20,9 +20,6 @@
     background-color: none;
     color: none;
 }
-/*.navbar-text {
-    color: $warm-black;
-}*/
 
 .navbar-default .navbar-text {
     color: $warm-black;
@@ -96,16 +93,38 @@ a:focus {
     color: $light-grey;
 }
 
-.left_menu {
-    background-color: $light-grey;
-    color: $warm-black; 
+
+.panel > .panel {
+    box-shadow: none;
 }
 
-.btn-primary, .btn-primary:hover {
+
+
+.btn, .btn-primary, .btn-sm {
+    background: $orange;
+    border: 1px solid $darker-orange;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     color: $light-grey;
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+ }
+
+ .btn:hover, .btn-primary:hover, .btn-sm:hover {
+    background: $darker-orange;
+    border: 1px solid $darkest-orange;
+ }
+
+ .contentpart .btn {
     background-color: $orange;
-    border-color: $darker-orange;
-}
+    color: $light-grey;
+ }
+
+ .contentpart .btn:hover, .btn-default.focus, .btn-default:focus, .btn-default:hover {
+    background-color: $darker-orange;
+    color: $light-grey;
+ }
 
 /* My Home Page Styling */
 
@@ -137,3 +156,7 @@ ul.QuickLinks_social-share li a:hover {
     color: $warm-black
 }
 
+.left_menu {
+    background-color: $light-grey;
+    color: $warm-black; 
+}
