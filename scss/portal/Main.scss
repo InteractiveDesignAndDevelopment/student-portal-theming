@@ -10,35 +10,11 @@
 @import '../../in/portal/Main';
 
 
-@font-face {
-    font-family: 'Orkney-Light';
-    src: url('../fonts/orkney/orkney-light-webfont.woff2') format('woff2'),
-         url('../fonts/orkney/orkney-light-webfont.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-}
-
   @font-face {
-    font-family: 'Orkney-Regular';
+    font-family: 'open_sansregular';
     src: url('../fonts/orkney/orkney-regular-webfont.woff2') format('woff2'),
          url('../fonts/orkney/orkney-regular-webfont.woff') format('woff');
     font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Orkney-Medium';
-    src: url('../fonts/orkney/orkney-medium-webfont.woff2') format('woff2'),
-         url('../fonts/orkney/orkney-medium-webfont.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Orkney-Bold';
-    src: url('../fonts/orkney/orkney-bold-webfont.woff2') format('woff2'),
-         url('../fonts/orkney/orkney-bold-webfont.woff') format('woff');
-    font-weight: 700;
     font-style: normal;
   }
 /* vuetrainportal.mercer.edu */
