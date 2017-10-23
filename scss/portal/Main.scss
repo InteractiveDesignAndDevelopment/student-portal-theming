@@ -143,6 +143,9 @@ table[id^="WebPart"]>tbody>tr>td {
     padding: 5px 5px 0 5px;
 }
 
+.carousel_custom {
+    background-color: $light-grey;
+}
 /* Calendar */ 
 
 .divpnlColorKeys {
@@ -152,4 +155,14 @@ table[id^="WebPart"]>tbody>tr>td {
 
 #footer, .footer {
     border-top: none;
+}
+
+/* MESSAGE CENTER */ 
+
+.tabon {
+    font-size: 16px;
+    color: $warm-black;
+    background-color: $light-grey;
+    box-shadow: 4px 4px 4px grey;
+    padding: 20px;
 }
