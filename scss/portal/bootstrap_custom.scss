@@ -58,7 +58,12 @@ a {
 }
 
 #header_no_print a {
-    color: $orange; 
+    color: $light-grey;
+    background-color: $warm-black;
+    padding: 7px 6px 6px 6px;
+    margin-top: -5px;
+    display: inline-block;
+
 }
 
 .social-share .navbar-text {
