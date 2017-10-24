@@ -186,15 +186,19 @@ td[id*="tabMessages"] div {
     background: none;
 }
 
-[class*="SelT"], [class*="HovT"] {
+td[class*="HovT"] {
     background: none;
     padding: 1rem;
     font-size: 16px;
     border-radius: 5px 5px 0px 0px;
 }
 
-[class*="SelT"].tabon {
-    background-color: $light-grey;
+td[class*="SelT"] {
+    background: none;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 5px 5px 0px 0px;
+    
 }
 
 /*REGISTRATION STYLING */
