@@ -120,6 +120,10 @@ a:focus {
     border: 1px solid $darkest-orange;
  }
 
+ .btn-circle {
+    border-radius: 50%;
+ }
+
  .contentpart .btn {
     background-color: $orange;
     color: $light-grey;
