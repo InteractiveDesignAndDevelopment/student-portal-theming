@@ -99,9 +99,12 @@
 }
 
 .left_menu_hover, .left_menu_selected {
-    color: $light-grey;
+    color: darken($light-grey, 52%);
 } 
 
+.submenu_hover, .submenu_selected, .submenu_selected:hover {
+    background-color: darken($light-grey, 18%);
+}
 /* My Home Page Styling | Whole Page */
 
 #header_no_print {
