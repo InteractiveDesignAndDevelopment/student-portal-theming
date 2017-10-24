@@ -179,3 +179,12 @@ ul.QuickLinks_social-share li a:hover {
     color: $warm-black
 }
 
+/* REGISTRATION STYLING */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $light-grey;
+    background-color: $orange;
+}
+
+.nav-tabs>li>a {
+    background-color: darken($grey, 10%);
+}
