@@ -58,7 +58,12 @@ a {
 }
 
 #header_no_print a {
-    color: $orange; 
+    color: $light-grey;
+    background-color: $warm-black;
+    padding: 7px 6px 6px 6px;
+    margin-top: -5px;
+    display: inline-block;
+
 }
 
 .social-share .navbar-text {
@@ -138,6 +143,10 @@ a:focus {
     border: 1px solid $darkest-orange;
  }
 
+ .btn-circle {
+        border-radius: 50%;
+    }
+
  .contentpart .btn {
     background-color: $orange;
     color: $light-grey;
@@ -178,3 +187,12 @@ ul.QuickLinks_social-share li a:hover {
     color: $warm-black
 }
 
+/* REGISTRATION STYLING */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $light-grey;
+    background-color: $orange;
+}
+
+.nav-tabs>li>a {
+    background-color: darken($light-grey, 10%);
+}
