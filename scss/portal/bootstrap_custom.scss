@@ -127,7 +127,7 @@ a:focus {
 /* BUTTONS */
 
 
-.btn, .btn-primary {
+.btn-primary {
     background: $orange;
     border: 1px solid $darker-orange;
     box-sizing: border-box;
@@ -142,6 +142,10 @@ a:focus {
     background: $darker-orange;
     border: 1px solid $darkest-orange;
  }
+
+ .btn-circle {
+        border-radius: 50%;
+    }
 
  .contentpart .btn {
     background-color: $orange;
@@ -186,5 +190,5 @@ ul.QuickLinks_social-share li a:hover {
 }
 
 .nav-tabs>li>a {
-    background-color: darken($grey, 10%);
+    background-color: darken($light-grey, 10%);
 }

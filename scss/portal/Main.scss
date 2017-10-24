@@ -184,3 +184,15 @@ table[id^="WebPart"]>tbody>tr>td {
 .tab-pane {
     border: 2px solid transparent;
 }
+
+.panelframe3 {
+    background-color: none; 
+}
+
+#tblSearchResults {
+    background-color: $light-grey;
+}
+
+#T14 {
+    visibility: hidden;
+}
