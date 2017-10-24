@@ -124,7 +124,7 @@ a:focus {
 }
 
 .left_menu_hover, .left_menu_selected {
-    color: darken($light-grey, 52%);
+    background-color: darken($light-grey, 52%);
 } 
 
 .submenu_hover, .submenu_selected, .submenu_selected:hover {
