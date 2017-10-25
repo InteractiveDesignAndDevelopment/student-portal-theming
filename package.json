@@ -23,7 +23,7 @@
     "postbuild:post-css:student-bootstrap": "postcss build/student-web-root/Public/global/css/bootstrap.css -u autoprefixer postcss-csso -o build/student-web-root/Public/global/css/bootstrap.css",
     "postbuild:post-css:student-bootstrap_custom": "postcss build/student-web-root/Public/global/css/bootstrap_custom.css -u autoprefixer postcss-safe-important postcss-csso -o build/student-web-root/Public/global/css/bootstrap_custom.css",
     "postbuild:post-css:student-main": "postcss build/student-web-root/Public/global/css/Main.css -u autoprefixer postcss-csso -o build/student-web-root/Public/global/css/Main.css",
-    "postbuild:copy-files": "cpy-cli src/fonts/orkney/*.* build/portal/Public/global/fonts/orkney",
+    "postbuild:copy-files": "copyfiles -f src/fonts/orkney/*.* build/portal/Public/global/fonts/orkney",
     "clean": "rimraf build && mkdirp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -31,8 +31,9 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^7.1.5",
+    "copyfiles": "^1.2.0",
     "cp-file-cli": "^1.0.1",
-    "cpy-cli": "^1.0.1", 
+    "cpy-cli": "^1.0.1",
     "csso-cli": "^1.1.0",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.5.3",
