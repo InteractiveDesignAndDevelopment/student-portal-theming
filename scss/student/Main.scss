@@ -47,10 +47,11 @@
     font-size: 20px;
 }
 
-.login_img{
-    margin-top: 6rem;    
+@media (max-width: 480px){
+    .login_img{
+        margin-top: 6rem;    
+    }
 }
-
 .land_page_dropdown {
     padding: 0;
     margin: 0;
@@ -162,6 +163,12 @@ table[id^="WebPart"]>tbody>tr>td {
     background-color: $light-grey;
 }
 
-#T14 {
+//This search results row actually works. It's the other one that doesn't. Show it!
+//#T14 {
+//    visibility: hidden;
+//}
+
+//This is the search results row that doesn't currently work. Hide it!
+[id*="SearchResults"] td[colspan*="1"] {
     visibility: hidden;
-}
+    }

@@ -213,6 +213,12 @@ td[class*="SelT"].tabon {
     background-color: $light-grey;
 }
 
-#T14 {
+//This search results row actually works. It's the other one that doesn't. Show it!
+//#T14 {
+//    visibility: hidden;
+//}
+
+//This is the search results row that doesn't currently work. Hide it!
+[id*="SearchResults"] td[colspan*="1"] {
     visibility: hidden;
-}
+    }
