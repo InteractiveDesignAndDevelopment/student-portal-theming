@@ -58,8 +58,10 @@ a {
     background-color: $warm-black;
 }
 
-.login_img{
-    margin-top: 6rem;    
+@media (max-width: 480px){
+    .login_img{
+        margin-top: 6rem;    
+    }
 }
 
 a:hover,
