@@ -6,15 +6,19 @@
  * Description: Style overrides for the Main.css file
  */
 
-@import '../colors';
-@import '../../in/student/Main';
+ @import 'colors';
+ @import '../originals/portal/Main';
 
 
-/* GENERAL STYLING */
-
-#wrapper {
-    background-color: $grey;
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/orkney/orkney-regular-webfont.woff2') format('woff2'),
+         url('../fonts/orkney/orkney-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
+
+/* vuetrainportal.mercer.edu */
 
 .middle-text p {
     color: $warm-black; 
@@ -25,13 +29,15 @@
     color: $orange; 
 }
 
+
 .navbar {
     background-color: $warm-black;
 }
 
-.footer {
-    border-top: none;
+.navbar-brand1 {
+    max-width: 20rem;
 }
+
 /* TEXT */
 
 .link2, .link2_red, .link4 {
@@ -42,22 +48,32 @@
 
 
 
-/* LOGIN and BUTTONS */
+/* LOGIN AREA */
 
 .login_link {
     padding: 20px 20px 20px 20px;
     border-radius: 0;
     font-size: 20px;
+    display: inline-block
 }
 
-@media (max-width: 480px){
-    .login_img{
-        margin-top: 6rem;    
-    }
-}
 .land_page_dropdown {
     padding: 0;
     margin: 0;
+}
+
+.middle-text.divcenter {
+    display: inline-block;
+    background-color: $light-grey; 
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .middle-text {
+        margin-top: 4rem;
+    }
+    
 }
 
 .lblstu a {
@@ -69,6 +85,9 @@
     font-size: 16px;
 }
 
+.login_img{
+    margin-top: 6rem;    
+}
 
 /* My Home Page Styling */
 
@@ -80,9 +99,12 @@
 }
 
 .left_menu_hover, .left_menu_selected {
-    color: $light-grey;
+    color: darken($light-grey, 52%);
 } 
 
+.submenu_hover, .submenu_selected, .submenu_selected:hover {
+    background-color: darken($light-grey, 18%);
+}
 /* My Home Page Styling | Whole Page */
 
 #header_no_print {
@@ -136,27 +158,52 @@ table[id^="WebPart"]>tbody>tr>td {
     padding: 5px 5px 0 5px;
 }
 
+.carousel_custom {
+    background-color: $light-grey;
+}
 /* Calendar */ 
 
 .divpnlColorKeys {
     height: 28px;
 
-    }
+}
 
+#footer, .footer {
+    border-top: none;
+}
 
-    /*STUDENT CHANGES*/
+/* MESSAGE CENTER */ 
 
-    .form-control {
-        border-radius: 0;
-    }
+.tabon {
+    font-size: 16px;
+    color: $warm-black;
+    background-color: $light-grey;
+    box-shadow: 4px 4px 4px grey;
+    padding: 20px;
+}
 
-    .back_home {
-        margin-bottom: 2rem;
-        padding-right: 0;
-    }
+td[id*="tabMessages"] div {
+    margin: 1rem;
+    line-height: 150%;
+    padding: 1rem;
+    background: none;
+}
 
+td[class*="HovT"], td[class*="SelT"], td[class*="DefT"] {
+    background: none;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 5px 5px 0px 0px; 
+}
+td[class*="SelT"].tabon {
+    background-color: $light-grey;
+}
 
-/* REGISTRATION */ 
+/*REGISTRATION STYLING */
+
+.tab-pane {
+    border: 2px solid transparent;
+}
 
 .panelframe3 {
     background-color: none; 

@@ -11,8 +11,8 @@
  * everything here !important
  */
 
-@import '../colors';
-@import '../../in/student/bootstrap_custom';
+ @import 'colors';
+ @import '../originals/portal/bootstrap_custom';
 
 /* vuetrainportal.mercer.edu */
 
@@ -20,9 +20,22 @@
     background-color: none;
     color: none;
 }
+/*.navbar-text {
+    color: $warm-black;
+}*/
 
 .navbar-default .navbar-text {
-    color: $warm-black;
+    color: none;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-text {
+    color: none;    
+}
+span.navbar-text{
+    color: none;
+}
+
+.navbar-text:hover {
+    color: none;
 }
 
 /* TEXT */ 
@@ -45,7 +58,12 @@ a {
 }
 
 #header_no_print a {
-    color: $orange; 
+    color: $light-grey;
+    background-color: $warm-black;
+    padding: 7px 6px 6px 6px;
+    margin-top: -5px;
+    display: inline-block;
+
 }
 
 .social-share .navbar-text {
@@ -56,12 +74,6 @@ a {
 
 .login_link {
     background-color: $warm-black;
-}
-
-@media (max-width: 480px){
-    .login_img{
-        margin-top: 6rem;    
-    }
 }
 
 a:hover,
@@ -99,36 +111,56 @@ a:focus {
     color: $light-grey;
 }
 
+.left_menu {
+    background-color: $light-grey;
+    color: $warm-black; 
+}
 
+.contentleft {
+        background-color: $light-grey;
+}
 .panel > .panel {
     box-shadow: none;
 }
 
+.left_menu_hover, .left_menu_selected {
+    background-color: darken($light-grey, 52%);
+} 
+
+.submenu_hover, .submenu_selected, .submenu_selected:hover {
+    background-color: darken($light-grey, 18%);
+}
+
+/* BUTTONS */
 
 
-.btn, .btn-primary, .btn-sm {
+.btn-primary {
     background: $orange;
     border: 1px solid $darker-orange;
     box-sizing: border-box;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     color: $light-grey;
     border-radius: 0;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     font-size: 16px;
  }
 
- .btn:hover, .btn-primary:hover, .btn-sm:hover {
+ .btn:hover, .btn-primary:hover {
     background: $darker-orange;
     border: 1px solid $darkest-orange;
  }
 
  .btn-circle {
-    border-radius: 50%;
- }
+        border-radius: 50%;
+    }
 
  .contentpart .btn {
     background-color: $orange;
     color: $light-grey;
+ }
+ 
+ .btn-circle {
+    border-radius: 50%;
  }
 
  .contentpart .btn:hover, .btn-default.focus, .btn-default:focus, .btn-default:hover {
@@ -137,10 +169,6 @@ a:focus {
  }
 
 /* My Home Page Styling */
-
-.navbar-text:hover {
-    color: $light-grey;
-}
 
 ul.QuickLinks_social-share li a:hover {
     background-color: darken($light-grey, 20%); 
@@ -166,7 +194,19 @@ ul.QuickLinks_social-share li a:hover {
     color: $warm-black
 }
 
-.left_menu {
-    background-color: $light-grey;
-    color: $warm-black; 
+/* CALENDAR STYLING */
+
+.event {
+    border-radius: 0;
+    height: 2rem;
+}
+
+/* REGISTRATION STYLING */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: $light-grey;
+    background-color: $orange;
+}
+
+.nav-tabs>li>a {
+    background-color: darken($light-grey, 10%);
 }
