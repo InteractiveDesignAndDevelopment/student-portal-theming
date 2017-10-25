@@ -17,16 +17,16 @@ _For modifying files after a Portal Upgrade_
 
 ### Steps
 1. Clone repo
-2. npm install
-3. install npm extension in VS Code 
-4. add new files from CMC to /in 
+2. Install NPM in the repository you cloned in step 1.
+3. If you haven't already, install npm extension in VS Code 
+4. Add new files from CMC to /in 
    - From [Portal Web Root]/Public/global/css/: add main.css, bootstrap.css, bootstrap_custom.css to /in/portal/
    - From [StaffSTS Web Root]/Styles: add signin.css to /in/staff/
    - From [StudentSTS Web Root]/Public/global/css/: add main.css, bootstrap.css, bootstrap_custom.css to /in/student/
 5. In text editor, modify files in  /scss only
-6. modify bootstrap_custom if you want to override styles essentially anywhere (it applies an !important tag)
-7. npm: Run Script > Build (npm run-script run-s build)
-8. new CSS files will be written in the /out directory
+   - **Note:** Modify bootstrap_custom.scss if you want to override styles essentially anywhere (it applies an !important tag)
+6. Run NPM Script > Build (npm run-script run-s build)
+7. Locate new CSS files, which will be written in the /out directory
 
 ## Instructions for installation of /out files 
 _After files have been modified by processes outlined above._ 
