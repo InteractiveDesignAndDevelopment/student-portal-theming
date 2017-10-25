@@ -1,0 +1,224 @@
+/*
+ * Main.scss
+ *
+ * Author: Interactive Design & Development
+ * Author URI: https://github.com/InteractiveDesignAndDevelopment
+ * Description: Style overrides for the Main.css file
+ */
+
+ @import 'colors';
+ @import '../originals/portal/Main';
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/orkney/orkney-regular-webfont.woff2') format('woff2'),
+         url('../fonts/orkney/orkney-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* vuetrainportal.mercer.edu */
+
+.middle-text p {
+    color: $warm-black; 
+    line-height: 150%;
+}
+
+.middle-text h3 {
+    color: $orange; 
+}
+
+
+.navbar {
+    background-color: $warm-black;
+}
+
+.navbar-brand1 {
+    max-width: 20rem;
+}
+
+/* TEXT */
+
+.link2, .link2_red, .link4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+
+
+/* LOGIN AREA */
+
+.login_link {
+    padding: 20px 20px 20px 20px;
+    border-radius: 0;
+    font-size: 20px;
+    display: inline-block
+}
+
+.land_page_dropdown {
+    padding: 0;
+    margin: 0;
+}
+
+.middle-text.divcenter {
+    display: inline-block;
+    background-color: $light-grey; 
+    padding: 1rem;
+}
+
+@media (max-width: 480px) {
+
+    .middle-text {
+        margin-top: 4rem;
+    }
+    
+}
+
+.lblstu a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lblstulbl {
+    font-size: 16px;
+}
+
+.login_img{
+    margin-top: 6rem;    
+}
+
+/* My Home Page Styling */
+
+/* My Home Page Styling > Left Menu */
+
+#_ctl0_leftNav {
+    background-color: $light-grey;
+    border-right: 1px solid $grey; 
+}
+
+.left_menu_hover, .left_menu_selected {
+    color: darken($light-grey, 52%);
+} 
+
+.submenu_hover, .submenu_selected, .submenu_selected:hover {
+    background-color: darken($light-grey, 18%);
+}
+/* My Home Page Styling | Whole Page */
+
+#header_no_print {
+    background-color: $grey;
+    color: $orange; 
+} 
+
+#content {
+    background-color: $grey; 
+}
+
+.tab_icon {
+    background-color: $orange;
+}
+
+div.QuickLinks_social {
+    background-color: $light-grey;
+}
+
+ul.QuickLinks_social-share li a:hover {
+    background-color: darken($light-grey, 20%); 
+}
+
+/* My Home Page Styling | Cards */
+
+.card {
+    background-color: $light-grey;
+    position: inherit;
+    padding: 10px;
+}
+
+.bg-blue {
+    background-color: none;
+}
+
+.small-box-footer {
+    visibility: hidden;
+}
+
+td[id^="WebPartTitle"] {
+    color: $light-grey;
+    background-color: $warm-black;
+    padding: 10px 0px 10px 0px;
+    line-height: 200%;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+table[id^="WebPart"]>tbody>tr>td {
+    padding: 5px 5px 0 5px;
+}
+
+.carousel_custom {
+    background-color: $light-grey;
+}
+/* Calendar */ 
+
+.divpnlColorKeys {
+    height: 28px;
+
+}
+
+#footer, .footer {
+    border-top: none;
+}
+
+/* MESSAGE CENTER */ 
+
+.tabon {
+    font-size: 16px;
+    color: $warm-black;
+    background-color: $light-grey;
+    box-shadow: 4px 4px 4px grey;
+    padding: 20px;
+}
+
+td[id*="tabMessages"] div {
+    margin: 1rem;
+    line-height: 150%;
+    padding: 1rem;
+    background: none;
+}
+
+td[class*="HovT"], td[class*="SelT"], td[class*="DefT"] {
+    background: none;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 5px 5px 0px 0px; 
+}
+td[class*="SelT"].tabon {
+    background-color: $light-grey;
+}
+
+/*REGISTRATION STYLING */
+
+.tab-pane {
+    border: 2px solid transparent;
+}
+
+.panelframe3 {
+    background-color: none; 
+}
+
+#tblSearchResults {
+    background-color: $light-grey;
+}
+
+//This search results row actually works. It's the other one that doesn't. Show it!
+//#T14 {
+//    visibility: hidden;
+//}
+
+//This is the search results row that doesn't currently work. Hide it!
+[id*="SearchResults"] td[colspan*="1"] {
+    visibility: hidden;
+    }

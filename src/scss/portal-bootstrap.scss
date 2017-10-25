@@ -1,0 +1,50 @@
+/*
+ * bootstrap.scss
+ *
+ * Author: Interactive Design & Development
+ * Author URI: https://github.com/InteractiveDesignAndDevelopment
+ * Description: Style overrides for the bootstrap.css file
+ */
+
+@import 'colors';
+@import '../originals/portal/bootstrap';
+
+/* vuetrainportal.mercer.edu */
+
+body {
+    background-color: $grey;
+}
+/* TEXT */
+body, p {
+    font-size: 16px;
+    color: $warm-black;
+    line-height: 150%;
+}
+
+
+
+/* LOGIN AREA */
+ .navbar-default {
+    background-color: none;
+ }
+
+
+
+ body {
+     color: $warm-black;
+ }
+
+ .panel {
+     background-color: $light-grey;
+ }
+
+ /* REGISTRATION STYLING */
+
+ .table-responsive {
+     background-color: $light-grey;
+     margin-top: 1rem;
+ }
+
+ div#row1 {
+    margin-top: 2rem;
+}

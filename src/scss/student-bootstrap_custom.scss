@@ -1,0 +1,172 @@
+/*
+ * bootstrap_custom.scss
+ *
+ * Author: Interactive Design & Development
+ * Author URI: https://github.com/InteractiveDesignAndDevelopment
+ * Description: Style overrides for the bootstrap_custom.css file
+ */
+
+/*
+ * PLEASE NOTE: The build script will automatically (and safely) mark
+ * everything here !important
+ */
+
+@import 'colors';
+@import '../originals/student/bootstrap_custom';
+
+/* vuetrainportal.mercer.edu */
+
+.navbar-default {
+    background-color: none;
+    color: none;
+}
+
+.navbar-default .navbar-text {
+    color: $warm-black;
+}
+
+/* TEXT */ 
+
+.wp_txt, .wp_txt:hover {
+    color: $warm-black; 
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.wp_txt a {
+    color: $orange; 
+    font-weight: bold;
+    font-size: 16px;
+    word-break: keep-all;
+}
+
+a {
+    color: $orange; 
+}
+
+#header_no_print a {
+    color: $orange; 
+}
+
+.social-share .navbar-text {
+    color: $light-grey;
+}
+
+/* LOGIN AREA */
+
+.login_link {
+    background-color: $warm-black;
+}
+
+@media (max-width: 480px){
+    .login_img{
+        margin-top: 6rem;    
+    }
+}
+
+a:hover,
+a:focus {
+  color: $orange;
+}
+
+.box1-innerbg1 {
+    background-color: $warm-black;
+}
+
+.dropdown-menu {
+    background-color: $orange;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.5);
+}
+
+.lblstu a {
+    color: $light-grey;
+
+}
+.lblstu {
+    background-color: none;
+}
+
+#footer a:hover, #footer span, {
+    color: $light-grey;
+}
+
+#footer {
+    background-color: $warm-black;
+}
+
+.login_link:focus, .login_link:hover {
+    background-color: $orange;
+    color: $light-grey;
+}
+
+
+.panel > .panel {
+    box-shadow: none;
+}
+
+
+
+.btn, .btn-primary, .btn-sm {
+    background: $orange;
+    border: 1px solid $darker-orange;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    color: $light-grey;
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+ }
+
+ .btn:hover, .btn-primary:hover, .btn-sm:hover {
+    background: $darker-orange;
+    border: 1px solid $darkest-orange;
+ }
+
+ .btn-circle {
+    border-radius: 50%;
+ }
+
+ .contentpart .btn {
+    background-color: $orange;
+    color: $light-grey;
+ }
+
+ .contentpart .btn:hover, .btn-default.focus, .btn-default:focus, .btn-default:hover {
+    background-color: $darker-orange;
+    color: $light-grey;
+ }
+
+/* My Home Page Styling */
+
+.navbar-text:hover {
+    color: $light-grey;
+}
+
+ul.QuickLinks_social-share li a:hover {
+    background-color: darken($light-grey, 20%); 
+}
+
+.small-box{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg-blue {
+    background-color: none;
+}
+
+/* Right Hand Panel Styling */ 
+
+.panel-body {
+    background-color: $light-grey;
+}
+
+/* Left Hand Navigation Styling */ 
+
+.submenu a, .submenu_selected, .submenu_selected a {
+    color: $warm-black
+}
+
+.left_menu {
+    background-color: $light-grey;
+    color: $warm-black; 
+}
