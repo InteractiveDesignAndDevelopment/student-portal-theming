@@ -30,7 +30,7 @@ _For modifying files after a Portal Upgrade_
 6. Locate new CSS, Image, and Font files, which will be written in the `/build` directory, which should mimic the directory structure of each respective Web Root. 
 7. Copy and paste `/build` CSS files/directories to a Share Drive
 
-## Instructions for installation of /out files 
+## Instructions for installation of /build files 
 _After files have been modified by processes outlined above._ 
 
 ### Tools
