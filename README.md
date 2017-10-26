@@ -12,28 +12,30 @@ _For modifying files after a Portal Upgrade_
 ### Tools
 - npm
 - text editor (VSCode recommended)
-- Bash shell recommended
-- access to respective Web Roots on Share drive
+- Bash shell (recommended)
+- access to respective Web Roots on train/production servers
 
 ### Steps
 1. Clone repo
 2. Install NPM in the repository you cloned in step 1.
-3. If you haven't already, install npm extension in VS Code 
-4. Add new files from CMC to /in 
-   - From [Portal Web Root]/Public/global/css/: add main.css, bootstrap.css, bootstrap_custom.css to /in/portal/
-   - From [StaffSTS Web Root]/Styles: add signin.css to /in/staff/
-   - From [StudentSTS Web Root]/Public/global/css/: add main.css, bootstrap.css, bootstrap_custom.css to /in/student/
-5. In text editor, modify files in  /scss only
+3. Add new files from CMC to /src 
+   - From [Portal Web Root]/Public/global/css/: add main.css, bootstrap.css, bootstrap_custom.css to /src/originals/portal/*
+   - From [StaffSTS Web Root]/Styles: add signin.css to /src/originals/staff/*
+   - From [StudentSTS Web Root]/Public/global/css/: add main.css, bootstrap.css, bootstrap_custom.css to /src/originals/student/*
+   - Images may be updated in /src/images **Note::** Take care to change file names in package.json if image source files change. 
+   - Fonts may be updated in /src/fonts **Note::** Take care to change file names in package.json if font source files change. 
+4. In text editor, *ONLY modify files in  /src/scss*
    - **Note:** Modify bootstrap_custom.scss if you want to override styles essentially anywhere (it applies an !important tag)
-6. Run NPM Script > Build (npm run-script run-s build)
-7. Locate new CSS files, which will be written in the /out directory
+5. In your cli, run `npm run-script run-s build` (If you have installed npm extension in VS Code, NPM Script > Build) 
+6. Locate new CSS, Image, and Font files, which will be written in the /build directory, which should mimic the directory structure of each respective Web Root. 
 
 ## Instructions for installation of /out files 
 _After files have been modified by processes outlined above._ 
 
 ### Tools
-- /out files from previous steps
-- access to respective Web Roots on Share drive
+- /build files from previous steps
+- A Comparison tool suite, like Beyond Compare
+- access to respective Web Roots on train/production servers
 
 ### Steps
 1. **CSS:** Copy and paste /out CSS files to their respective directories
