@@ -131,6 +131,10 @@ a:focus {
     background-color: darken($light-grey, 18%);
 }
 
+//to remove background shading from Faculty Portal blocks. 
+.carousel-inner {  
+    background-color: none;
+}
 /* BUTTONS */
 
 
