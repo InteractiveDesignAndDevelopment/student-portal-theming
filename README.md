@@ -40,7 +40,23 @@ _After files have been modified by processes outlined above._
 
 ### Steps
 1. Open your comparison tool. 
-2. Portal: Compare the `/build/portal` files to the [Portal web root]. Merge.
-3. Student: Compare the `/build/student` files to the [Student web root]. Merge. 
-4. Staff: Compare the `/build/staff` files to the [Staff web root]. Merge.
-5. Profit.
+2. Select "Session > New Session > Folder Merge"
+3. **For Portal:** 
+   - Compare the `/build/portal` files to the [Portal web root]. 
+   - On the line where it says "Merge to:", Select the [Portal web root]. 
+   - Select the line comparing `[Portal web root]/Public/` to `build/portal/Public/`.
+   - Copy to Left.
+   - Hard refresh the page to ensure correct changes were applied.
+4. **For Student:** 
+   - Compare the `/build/student` files to the [Student web root]. 
+   - On the line where it says "Merge to:", Select the [Student web root]. 
+   - Select the line comparing `[Student web root]/Public/` to `build/student/Public/`.
+   - Copy to Left.
+   - Hard refresh the page to ensure correct changes were applied.
+5. **For Staff:** 
+   - Compare the `/build/staff` files to the [Staff web root]. 
+   - On the line where it says "Merge to:", Select the [Staff web root]. 
+   - Select the line comparing `[Staff web root]/Styles/` to `build/staff/Styles/`.
+   - Copy to Left.
+   - Hard refresh the page to ensure correct changes were applied.   
+6. Profit.
