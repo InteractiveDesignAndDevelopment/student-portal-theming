@@ -161,6 +161,10 @@ table[id^="WebPart"]>tbody>tr>td {
 .carousel_custom {
     background-color: $light-grey;
 }
+
+.carousel-inner {
+    background-color: none;
+}
 /* Calendar */ 
 
 .divpnlColorKeys {
