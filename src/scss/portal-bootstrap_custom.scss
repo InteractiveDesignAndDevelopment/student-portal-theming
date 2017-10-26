@@ -133,7 +133,15 @@ a:focus {
 
 //to remove background shading from Faculty Portal blocks. 
 .carousel-inner {  
-    background-color: none;
+    background-color: $light-grey;
+}
+
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    background: $orange;
+    border-color: #fff;
+    margin: 3px;
 }
 /* BUTTONS */
 
