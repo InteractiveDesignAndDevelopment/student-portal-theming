@@ -30,7 +30,7 @@ _For modifying files after a Portal Upgrade_
 6. Locate new CSS, Image, and Font files, which will be written in the `/build` directory, which should mimic the directory structure of each respective Web Root. 
 7. Copy and paste `/build` CSS files/directories to a Share Drive
 
-## Instructions for installation of /out files 
+## Instructions for installation of /build files 
 _After files have been modified by processes outlined above._ 
 
 ### Tools
@@ -40,23 +40,20 @@ _After files have been modified by processes outlined above._
 
 ### Steps
 1. Open your comparison tool. 
-2. Select "Session > New Session > Folder Merge"
+2. Select "Session > New Session > Folder Compare"
 3. **For Portal:** 
-   - Compare the `/build/portal` files to the [Portal web root]. 
-   - On the line where it says "Merge to:", Select the [Portal web root]. 
-   - Select the line comparing `[Portal web root]/Public/` to `build/portal/Public/`.
-   - Copy to Left.
-   - Hard refresh the page to ensure correct changes were applied.
+   - Compare the `/build/portal` files on Left to the [Portal web root] on Right. 
+   - From menu, select `Actions > Synchronize > Update Right...`
+   - If you see no files in the action menu, be sure to untick the `Just Selection` checkbox. Click `Sync`. 
+   - Force reload the page in your browser (`Ctrl + Shift + R`) to ensure correct changes were applied.
 4. **For Student:** 
-   - Compare the `/build/student` files to the [Student web root]. 
-   - On the line where it says "Merge to:", Select the [Student web root]. 
-   - Select the line comparing `[Student web root]/Public/` to `build/student/Public/`.
-   - Copy to Left.
-   - Hard refresh the page to ensure correct changes were applied.
+   - Compare the `/build/student` files on Left to the [Student web root] on Right. 
+   - From menu, select `Actions > Synchronize > Update Right...`
+   - If you see no files in the action menu, be sure to untick the `Just Selection` checkbox. Click `Sync`. 
+   - Force reload the page in your browser (`Ctrl + Shift + R`) to ensure correct changes were applied.
 5. **For Staff:** 
-   - Compare the `/build/staff` files to the [Staff web root]. 
-   - On the line where it says "Merge to:", Select the [Staff web root]. 
-   - Select the line comparing `[Staff web root]/Styles/` to `build/staff/Styles/`.
-   - Copy to Left.
-   - Hard refresh the page to ensure correct changes were applied.   
+   - Compare the `/build/staff` files on Left to the [Staff web root] on Right. 
+   - From menu, select `Actions > Synchronize > Update Right...`
+   - If you see no files in the action menu, be sure to untick the `Just Selection` checkbox. Click `Sync`. 
+   - Force reload the page in your browser (`Ctrl + Shift + R`) to ensure correct changes were applied.
 6. Profit.
