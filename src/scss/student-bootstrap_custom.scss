@@ -104,7 +104,11 @@ a:focus {
     box-shadow: none;
 }
 
-
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: $warm-black;
+    border-color: $warm-black;
+    }
 
 .btn, .btn-primary, .btn-sm {
     background: $orange;
