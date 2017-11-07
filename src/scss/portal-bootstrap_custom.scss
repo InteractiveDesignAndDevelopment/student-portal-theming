@@ -123,6 +123,16 @@ a:focus {
     box-shadow: none;
 }
 
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: $warm-black;
+    border-color: $warm-black;
+    }
+
+.panel-primary {
+    border-color: $warm-black;
+    }
+    
 .left_menu_hover, .left_menu_selected {
     background-color: darken($light-grey, 52%);
 } 
