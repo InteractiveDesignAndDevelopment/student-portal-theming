@@ -14,18 +14,18 @@
 @import 'colors';
 @import '../originals/student/bootstrap_custom';
 
-/* vuetrainportal.mercer.edu */
+//  888                    888          
+//  888                    888          
+//  888                    888          
+//  88888b.   .d88b.   .d88888 888  888 
+//  888 "88b d88""88b d88" 888 888  888 
+//  888  888 888  888 888  888 888  888 
+//  888 d88P Y88..88P Y88b 888 Y88b 888 
+//  88888P"   "Y88P"   "Y88888  "Y88888 
+//                                  888 
+//                             Y8b d88P 
+//                              "Y88P"            
 
-.navbar-default {
-    background-color: none;
-    color: none;
-}
-
-.navbar-default .navbar-text {
-    color: $warm-black;
-}
-
-/* TEXT */ 
 
 .wp_txt, .wp_txt:hover {
     color: $warm-black; 
@@ -44,29 +44,95 @@ a {
     color: $orange; 
 }
 
+a:hover,
+a:focus {
+  color: $orange;
+}
+
 #header_no_print a {
     color: $orange; 
+}
+
+ul.QuickLinks_social-share li a:hover {
+    background-color: darken($light-grey, 20%); 
+}
+
+
+//  888b    888        d8888 888     888 
+//  8888b   888       d88888 888     888 
+//  88888b  888      d88P888 888     888 
+//  888Y88b 888     d88P 888 Y88b   d88P 
+//  888 Y88b888    d88P  888  Y88b d88P  
+//  888  Y88888   d88P   888   Y88o88P   
+//  888   Y8888  d8888888888    Y888P    
+//  888    Y888 d88P     888     Y8P     
+
+.navbar-default {
+    background-color: none;
+    color: none;
+}
+
+.navbar-default .navbar-text {
+    color: $warm-black;
 }
 
 .social-share .navbar-text {
     color: $light-grey;
 }
 
-/* LOGIN AREA */
+.navbar-text:hover {
+    color: $light-grey;
+}
+
+
+
+//  888           .d888 888          888b    888        d8888 888     888 
+//  888          d88P"  888          8888b   888       d88888 888     888 
+//  888          888    888          88888b  888      d88P888 888     888 
+//  888  .d88b.  888888 888888       888Y88b 888     d88P 888 Y88b   d88P 
+//  888 d8P  Y8b 888    888          888 Y88b888    d88P  888  Y88b d88P  
+//  888 88888888 888    888          888  Y88888   d88P   888   Y88o88P   
+//  888 Y8b.     888    Y88b.        888   Y8888  d8888888888    Y888P    
+//  888  "Y8888  888     "Y888       888    Y888 d88P     888     Y8P     
+
+.submenu a, .submenu_selected, .submenu_selected a {
+    color: $warm-black
+}
+
+.left_menu {
+    background-color: $light-grey;
+    color: $warm-black; 
+}
+
+
+
+
+
+//  888                   d8b                                                   
+//  888                   Y8P                                                   
+//  888                                                                         
+//  888  .d88b.   .d88b.  888 88888b.         8888b.  888d888  .d88b.   8888b.  
+//  888 d88""88b d88P"88b 888 888 "88b           "88b 888P"   d8P  Y8b     "88b 
+//  888 888  888 888  888 888 888  888       .d888888 888     88888888 .d888888 
+//  888 Y88..88P Y88b 888 888 888  888       888  888 888     Y8b.     888  888 
+//  888  "Y88P"   "Y88888 888 888  888       "Y888888 888      "Y8888  "Y888888 
+//                    888                                                       
+//               Y8b d88P                                                       
+//                "Y88P"                                                        
 
 .login_link {
     background-color: $warm-black;
+}
+
+.login_link:focus, .login_link:hover {
+    background-color: $orange;
+    color: $light-grey;
 }
 
 @media (max-width: 480px){
     .login_img{
         margin-top: 6rem;    
     }
-}
-
-a:hover,
-a:focus {
-  color: $orange;
 }
 
 .box1-innerbg1 {
@@ -86,6 +152,18 @@ a:focus {
     background-color: none;
 }
 
+
+
+
+//  8888888888  .d88888b.   .d88888b.  88888888888 8888888888 8888888b.  
+//  888        d88P" "Y88b d88P" "Y88b     888     888        888   Y88b 
+//  888        888     888 888     888     888     888        888    888 
+//  8888888    888     888 888     888     888     8888888    888   d88P 
+//  888        888     888 888     888     888     888        8888888P"  
+//  888        888     888 888     888     888     888        888 T88b   
+//  888        Y88b. .d88P Y88b. .d88P     888     888        888  T88b  
+//  888         "Y88888P"   "Y88888P"      888     8888888888 888   T88b 
+         
 #footer a:hover, #footer span, {
     color: $light-grey;
 }
@@ -94,21 +172,14 @@ a:focus {
     background-color: $warm-black;
 }
 
-.login_link:focus, .login_link:hover {
-    background-color: $orange;
-    color: $light-grey;
-}
-
-
-.panel > .panel {
-    box-shadow: none;
-}
-
-.panel-primary>.panel-heading {
-    color: #fff;
-    background-color: $warm-black;
-    border-color: $warm-black;
-    }
+//  888888b.   888     888 88888888888 88888888888  .d88888b.  888b    888  .d8888b.  
+//  888  "88b  888     888     888         888     d88P" "Y88b 8888b   888 d88P  Y88b 
+//  888  .88P  888     888     888         888     888     888 88888b  888 Y88b.      
+//  8888888K.  888     888     888         888     888     888 888Y88b 888  "Y888b.   
+//  888  "Y88b 888     888     888         888     888     888 888 Y88b888     "Y88b. 
+//  888    888 888     888     888         888     888     888 888  Y88888       "888 
+//  888   d88P Y88b. .d88P     888         888     Y88b. .d88P 888   Y8888 Y88b  d88P 
+//  8888888P"   "Y88888P"      888         888      "Y88888P"  888    Y888  "Y8888P"  
 
 .btn, .btn-primary, .btn-sm {
     background: $orange;
@@ -140,15 +211,26 @@ a:focus {
     color: $light-grey;
  }
 
-/* My Home Page Styling */
 
-.navbar-text:hover {
-    color: $light-grey;
+//   .d8888b.         d8888 8888888b.  8888888b.   .d8888b.         d88P 8888888b.         d8888 888b    888 8888888888 888       .d8888b.  
+//  d88P  Y88b       d88888 888   Y88b 888  "Y88b d88P  Y88b       d88P  888   Y88b       d88888 8888b   888 888        888      d88P  Y88b 
+//  888    888      d88P888 888    888 888    888 Y88b.           d88P   888    888      d88P888 88888b  888 888        888      Y88b.      
+//  888            d88P 888 888   d88P 888    888  "Y888b.       d88P    888   d88P     d88P 888 888Y88b 888 8888888    888       "Y888b.   
+//  888           d88P  888 8888888P"  888    888     "Y88b.    d88P     8888888P"     d88P  888 888 Y88b888 888        888          "Y88b. 
+//  888    888   d88P   888 888 T88b   888    888       "888   d88P      888          d88P   888 888  Y88888 888        888            "888 
+//  Y88b  d88P  d8888888888 888  T88b  888  .d88P Y88b  d88P  d88P       888         d8888888888 888   Y8888 888        888      Y88b  d88P 
+//   "Y8888P"  d88P     888 888   T88b 8888888P"   "Y8888P"  d88P        888        d88P     888 888    Y888 8888888888 88888888  "Y8888P"  
+
+
+.panel > .panel {
+    box-shadow: none;
 }
 
-ul.QuickLinks_social-share li a:hover {
-    background-color: darken($light-grey, 20%); 
-}
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: $warm-black;
+    border-color: $warm-black;
+    }
 
 .small-box{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -158,19 +240,7 @@ ul.QuickLinks_social-share li a:hover {
     background-color: none;
 }
 
-/* Right Hand Panel Styling */ 
-
 .panel-body {
     background-color: $light-grey;
 }
 
-/* Left Hand Navigation Styling */ 
-
-.submenu a, .submenu_selected, .submenu_selected a {
-    color: $warm-black
-}
-
-.left_menu {
-    background-color: $light-grey;
-    color: $warm-black; 
-}

@@ -18,7 +18,17 @@
     font-style: normal;
 }
 
-/* vuetrainportal.mercer.edu */
+//  888                    888          
+//  888                    888          
+//  888                    888          
+//  88888b.   .d88b.   .d88888 888  888 
+//  888 "88b d88""88b d88" 888 888  888 
+//  888  888 888  888 888  888 888  888 
+//  888 d88P Y88..88P Y88b 888 Y88b 888 
+//  88888P"   "Y88P"   "Y88888  "Y88888 
+//                                  888 
+//                             Y8b d88P 
+//                              "Y88P"    
 
 .middle-text p {
     color: $warm-black; 
@@ -29,6 +39,20 @@
     color: $orange; 
 }
 
+.link2, .link2_red, .link4 {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+
+//  888b    888        d8888 888     888 
+//  8888b   888       d88888 888     888 
+//  88888b  888      d88P888 888     888 
+//  888Y88b 888     d88P 888 Y88b   d88P 
+//  888 Y88b888    d88P  888  Y88b d88P  
+//  888  Y88888   d88P   888   Y88o88P   
+//  888   Y8888  d8888888888    Y888P    
+//  888    Y888 d88P     888     Y8P     
 
 .navbar {
     background-color: $warm-black;
@@ -38,17 +62,62 @@
     max-width: 20rem;
 }
 
-/* TEXT */
+#header_no_print {
+    background-color: $grey;
+    color: $orange; 
+} 
 
-.link2, .link2_red, .link4 {
-    font-size: 16px;
-    line-height: 18px;
+#content {
+    background-color: $grey; 
+}
+
+.tab_icon {
+    background-color: $orange;
+}
+
+div.QuickLinks_social {
+    background-color: $light-grey;
+}
+
+ul.QuickLinks_social-share li a:hover {
+    background-color: darken($light-grey, 20%); 
+}
+
+//  888           .d888 888          888b    888        d8888 888     888 
+//  888          d88P"  888          8888b   888       d88888 888     888 
+//  888          888    888          88888b  888      d88P888 888     888 
+//  888  .d88b.  888888 888888       888Y88b 888     d88P 888 Y88b   d88P 
+//  888 d8P  Y8b 888    888          888 Y88b888    d88P  888  Y88b d88P  
+//  888 88888888 888    888          888  Y88888   d88P   888   Y88o88P   
+//  888 Y8b.     888    Y88b.        888   Y8888  d8888888888    Y888P    
+//  888  "Y8888  888     "Y888       888    Y888 d88P     888     Y8P     
+
+#_ctl0_leftNav {
+    background-color: $light-grey;
+    border-right: 1px solid $grey; 
+}
+
+.left_menu_hover, .left_menu_selected {
+    color: darken($light-grey, 52%);
+} 
+
+.submenu_hover, .submenu_selected, .submenu_selected:hover {
+    background-color: darken($light-grey, 18%);
 }
 
 
 
-
-/* LOGIN AREA */
+//  888                   d8b                                                   
+//  888                   Y8P                                                   
+//  888                                                                         
+//  888  .d88b.   .d88b.  888 88888b.         8888b.  888d888  .d88b.   8888b.  
+//  888 d88""88b d88P"88b 888 888 "88b           "88b 888P"   d8P  Y8b     "88b 
+//  888 888  888 888  888 888 888  888       .d888888 888     88888888 .d888888 
+//  888 Y88..88P Y88b 888 888 888  888       888  888 888     Y8b.     888  888 
+//  888  "Y88P"   "Y88888 888 888  888       "Y888888 888      "Y8888  "Y888888 
+//                    888                                                       
+//               Y8b d88P                                                       
+//                "Y88P"        
 
 .login_link {
     padding: 20px 20px 20px 20px;
@@ -89,46 +158,15 @@
     margin-top: 6rem;    
 }
 
-/* My Home Page Styling */
 
-/* My Home Page Styling > Left Menu */
-
-#_ctl0_leftNav {
-    background-color: $light-grey;
-    border-right: 1px solid $grey; 
-}
-
-.left_menu_hover, .left_menu_selected {
-    color: darken($light-grey, 52%);
-} 
-
-.submenu_hover, .submenu_selected, .submenu_selected:hover {
-    background-color: darken($light-grey, 18%);
-}
-/* My Home Page Styling | Whole Page */
-
-#header_no_print {
-    background-color: $grey;
-    color: $orange; 
-} 
-
-#content {
-    background-color: $grey; 
-}
-
-.tab_icon {
-    background-color: $orange;
-}
-
-div.QuickLinks_social {
-    background-color: $light-grey;
-}
-
-ul.QuickLinks_social-share li a:hover {
-    background-color: darken($light-grey, 20%); 
-}
-
-/* My Home Page Styling | Cards */
+//   .d8888b.         d8888 8888888b.  8888888b.   .d8888b.         d88P 8888888b.         d8888 888b    888 8888888888 888       .d8888b.  
+//  d88P  Y88b       d88888 888   Y88b 888  "Y88b d88P  Y88b       d88P  888   Y88b       d88888 8888b   888 888        888      d88P  Y88b 
+//  888    888      d88P888 888    888 888    888 Y88b.           d88P   888    888      d88P888 88888b  888 888        888      Y88b.      
+//  888            d88P 888 888   d88P 888    888  "Y888b.       d88P    888   d88P     d88P 888 888Y88b 888 8888888    888       "Y888b.   
+//  888           d88P  888 8888888P"  888    888     "Y88b.    d88P     8888888P"     d88P  888 888 Y88b888 888        888          "Y88b. 
+//  888    888   d88P   888 888 T88b   888    888       "888   d88P      888          d88P   888 888  Y88888 888        888            "888 
+//  Y88b  d88P  d8888888888 888  T88b  888  .d88P Y88b  d88P  d88P       888         d8888888888 888   Y8888 888        888      Y88b  d88P 
+//   "Y8888P"  d88P     888 888   T88b 8888888P"   "Y8888P"  d88P        888        d88P     888 888    Y888 8888888888 88888888  "Y8888P"  
 
 .card {
     background-color: $light-grey;
@@ -162,7 +200,17 @@ table[id^="WebPart"]>tbody>tr>td {
     background-color: $light-grey;
 }
 
-/* Calendar */ 
+//                    888                        888                  
+//                    888                        888                  
+//                    888                        888                  
+//   .d8888b  8888b.  888  .d88b.  88888b.   .d88888  8888b.  888d888 
+//  d88P"        "88b 888 d8P  Y8b 888 "88b d88" 888     "88b 888P"   
+//  888      .d888888 888 88888888 888  888 888  888 .d888888 888     
+//  Y88b.    888  888 888 Y8b.     888  888 Y88b 888 888  888 888     
+//   "Y8888P "Y888888 888  "Y8888  888  888  "Y88888 "Y888888 888     
+//                                                                    
+//                                                                    
+//   
 
 .divpnlColorKeys {
     height: 28px;
@@ -173,7 +221,17 @@ table[id^="WebPart"]>tbody>tr>td {
     border-top: none;
 }
 
-/* MESSAGE CENTER */ 
+//                                                                                                       888                     
+//                                                                                                       888                     
+//                                                                                                       888                     
+//  88888b.d88b.   .d88b.  .d8888b  .d8888b   8888b.   .d88b.   .d88b.         .d8888b  .d88b.  88888b.  888888  .d88b.  888d888 
+//  888 "888 "88b d8P  Y8b 88K      88K          "88b d88P"88b d8P  Y8b       d88P"    d8P  Y8b 888 "88b 888    d8P  Y8b 888P"   
+//  888  888  888 88888888 "Y8888b. "Y8888b. .d888888 888  888 88888888       888      88888888 888  888 888    88888888 888     
+//  888  888  888 Y8b.          X88      X88 888  888 Y88b 888 Y8b.           Y88b.    Y8b.     888  888 Y88b.  Y8b.     888     
+//  888  888  888  "Y8888   88888P'  88888P' "Y888888  "Y88888  "Y8888         "Y8888P  "Y8888  888  888  "Y888  "Y8888  888     
+//                                                         888                                                                   
+//                                                    Y8b d88P                                                                   
+//                                                     "Y88P"                                                                    
 
 .tabon {
     font-size: 16px;
@@ -200,7 +258,17 @@ td[class*="SelT"].tabon {
     background-color: $light-grey;
 }
 
-/*REGISTRATION STYLING */
+//                            d8b          888                     888    d8b                   
+//                            Y8P          888                     888    Y8P                   
+//                                         888                     888                          
+//  888d888  .d88b.   .d88b.  888 .d8888b  888888 888d888  8888b.  888888 888  .d88b.  88888b.  
+//  888P"   d8P  Y8b d88P"88b 888 88K      888    888P"       "88b 888    888 d88""88b 888 "88b 
+//  888     88888888 888  888 888 "Y8888b. 888    888     .d888888 888    888 888  888 888  888 
+//  888     Y8b.     Y88b 888 888      X88 Y88b.  888     888  888 Y88b.  888 Y88..88P 888  888 
+//  888      "Y8888   "Y88888 888  88888P'  "Y888 888     "Y888888  "Y888 888  "Y88P"  888  888 
+//                        888                                                                   
+//                   Y8b d88P                                                                   
+//                    "Y88P"       
 
 .tab-pane {
     border: 2px solid transparent;

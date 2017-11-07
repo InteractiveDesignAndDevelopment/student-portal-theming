@@ -10,8 +10,17 @@
  @import '../originals/student/Main';
 
 
-/* GENERAL STYLING */
-
+//  888                    888          
+//  888                    888          
+//  888                    888          
+//  88888b.   .d88b.   .d88888 888  888 
+//  888 "88b d88""88b d88" 888 888  888 
+//  888  888 888  888 888  888 888  888 
+//  888 d88P Y88..88P Y88b 888 Y88b 888 
+//  88888P"   "Y88P"   "Y88888  "Y88888 
+//                                  888 
+//                             Y8b d88P 
+//                              "Y88P"           
 #wrapper {
     background-color: $grey;
 }
@@ -25,65 +34,10 @@
     color: $orange; 
 }
 
-.navbar {
-    background-color: $warm-black;
-}
-
-.footer {
-    border-top: none;
-}
-/* TEXT */
-
 .link2, .link2_red, .link4 {
     font-size: 16px;
     line-height: 18px;
 }
-
-
-
-
-/* LOGIN and BUTTONS */
-
-.login_link {
-    padding: 20px 20px 20px 20px;
-    border-radius: 0;
-    font-size: 20px;
-}
-
-@media (max-width: 480px){
-    .login_img{
-        margin-top: 6rem;    
-    }
-}
-.land_page_dropdown {
-    padding: 0;
-    margin: 0;
-}
-
-.lblstu a {
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.lblstulbl {
-    font-size: 16px;
-}
-
-
-/* My Home Page Styling */
-
-/* My Home Page Styling > Left Menu */
-
-#_ctl0_leftNav {
-    background-color: $light-grey;
-    border-right: 1px solid $grey; 
-}
-
-.left_menu_hover, .left_menu_selected {
-    color: $light-grey;
-} 
-
-/* My Home Page Styling | Whole Page */
 
 #header_no_print {
     background-color: $grey;
@@ -106,7 +60,99 @@ ul.QuickLinks_social-share li a:hover {
     background-color: darken($light-grey, 20%); 
 }
 
-/* My Home Page Styling | Cards */
+//  888b    888        d8888 888     888 
+//  8888b   888       d88888 888     888 
+//  88888b  888      d88P888 888     888 
+//  888Y88b 888     d88P 888 Y88b   d88P 
+//  888 Y88b888    d88P  888  Y88b d88P  
+//  888  Y88888   d88P   888   Y88o88P   
+//  888   Y8888  d8888888888    Y888P    
+//  888    Y888 d88P     888     Y8P     
+
+.navbar {
+    background-color: $warm-black;
+}
+
+
+//  888           .d888 888          888b    888        d8888 888     888 
+//  888          d88P"  888          8888b   888       d88888 888     888 
+//  888          888    888          88888b  888      d88P888 888     888 
+//  888  .d88b.  888888 888888       888Y88b 888     d88P 888 Y88b   d88P 
+//  888 d8P  Y8b 888    888          888 Y88b888    d88P  888  Y88b d88P  
+//  888 88888888 888    888          888  Y88888   d88P   888   Y88o88P   
+//  888 Y8b.     888    Y88b.        888   Y8888  d8888888888    Y888P    
+//  888  "Y8888  888     "Y888       888    Y888 d88P     888     Y8P     
+
+#_ctl0_leftNav {
+    background-color: $light-grey;
+    border-right: 1px solid $grey; 
+}
+
+.left_menu_hover, .left_menu_selected {
+    color: $light-grey;
+} 
+
+
+//  8888888888  .d88888b.   .d88888b.  88888888888 8888888888 8888888b.  
+//  888        d88P" "Y88b d88P" "Y88b     888     888        888   Y88b 
+//  888        888     888 888     888     888     888        888    888 
+//  8888888    888     888 888     888     888     8888888    888   d88P 
+//  888        888     888 888     888     888     888        8888888P"  
+//  888        888     888 888     888     888     888        888 T88b   
+//  888        Y88b. .d88P Y88b. .d88P     888     888        888  T88b  
+//  888         "Y88888P"   "Y88888P"      888     8888888888 888   T88b 
+
+.footer {
+    border-top: none;
+}
+
+
+//  888                   d8b                                                   
+//  888                   Y8P                                                   
+//  888                                                                         
+//  888  .d88b.   .d88b.  888 88888b.         8888b.  888d888  .d88b.   8888b.  
+//  888 d88""88b d88P"88b 888 888 "88b           "88b 888P"   d8P  Y8b     "88b 
+//  888 888  888 888  888 888 888  888       .d888888 888     88888888 .d888888 
+//  888 Y88..88P Y88b 888 888 888  888       888  888 888     Y8b.     888  888 
+//  888  "Y88P"   "Y88888 888 888  888       "Y888888 888      "Y8888  "Y888888 
+//                    888                                                       
+//               Y8b d88P                                                       
+//                "Y88P"                
+
+.login_link {
+    padding: 20px 20px 20px 20px;
+    border-radius: 0;
+    font-size: 20px;
+}
+
+@media (max-width: 480px){
+    .login_img{
+        margin-top: 6rem;    
+    }
+}
+
+.land_page_dropdown {
+    padding: 0;
+    margin: 0;
+}
+
+.lblstu a {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.lblstulbl {
+    font-size: 16px;
+}
+
+//   .d8888b.         d8888 8888888b.  8888888b.   .d8888b.         d88P 8888888b.         d8888 888b    888 8888888888 888       .d8888b.  
+//  d88P  Y88b       d88888 888   Y88b 888  "Y88b d88P  Y88b       d88P  888   Y88b       d88888 8888b   888 888        888      d88P  Y88b 
+//  888    888      d88P888 888    888 888    888 Y88b.           d88P   888    888      d88P888 88888b  888 888        888      Y88b.      
+//  888            d88P 888 888   d88P 888    888  "Y888b.       d88P    888   d88P     d88P 888 888Y88b 888 8888888    888       "Y888b.   
+//  888           d88P  888 8888888P"  888    888     "Y88b.    d88P     8888888P"     d88P  888 888 Y88b888 888        888          "Y88b. 
+//  888    888   d88P   888 888 T88b   888    888       "888   d88P      888          d88P   888 888  Y88888 888        888            "888 
+//  Y88b  d88P  d8888888888 888  T88b  888  .d88P Y88b  d88P  d88P       888         d8888888888 888   Y8888 888        888      Y88b  d88P 
+//   "Y8888P"  d88P     888 888   T88b 8888888P"   "Y8888P"  d88P        888        d88P     888 888    Y888 8888888888 88888888  "Y8888P"  
 
 .card {
     background-color: $light-grey;
@@ -136,7 +182,17 @@ table[id^="WebPart"]>tbody>tr>td {
     padding: 5px 5px 0 5px;
 }
 
-/* Calendar */ 
+//                    888                        888                  
+//                    888                        888                  
+//                    888                        888                  
+//   .d8888b  8888b.  888  .d88b.  88888b.   .d88888  8888b.  888d888 
+//  d88P"        "88b 888 d8P  Y8b 888 "88b d88" 888     "88b 888P"   
+//  888      .d888888 888 88888888 888  888 888  888 .d888888 888     
+//  Y88b.    888  888 888 Y8b.     888  888 Y88b 888 888  888 888     
+//   "Y8888P "Y888888 888  "Y8888  888  888  "Y88888 "Y888888 888     
+//                                                                    
+//                                                                    
+//               
 
 .divpnlColorKeys {
     height: 28px;
@@ -144,20 +200,17 @@ table[id^="WebPart"]>tbody>tr>td {
     }
 
 
-    /*STUDENT CHANGES*/
-
-    .form-control {
-        border-radius: 0;
-    }
-
-    .back_home {
-        margin-bottom: 2rem;
-        padding-right: 0;
-    }
-
-
-/* REGISTRATION */ 
-
+//                            d8b          888                     888    d8b                   
+//                            Y8P          888                     888    Y8P                   
+//                                         888                     888                          
+//  888d888  .d88b.   .d88b.  888 .d8888b  888888 888d888  8888b.  888888 888  .d88b.  88888b.  
+//  888P"   d8P  Y8b d88P"88b 888 88K      888    888P"       "88b 888    888 d88""88b 888 "88b 
+//  888     88888888 888  888 888 "Y8888b. 888    888     .d888888 888    888 888  888 888  888 
+//  888     Y8b.     Y88b 888 888      X88 Y88b.  888     888  888 Y88b.  888 Y88..88P 888  888 
+//  888      "Y8888   "Y88888 888  88888P'  "Y888 888     "Y888888  "Y888 888  "Y88P"  888  888 
+//                        888                                                                   
+//                   Y8b d88P                                                                   
+//                    "Y88P"                                                                    
 .panelframe3 {
     background-color: none; 
 }
@@ -175,3 +228,12 @@ table[id^="WebPart"]>tbody>tr>td {
 [id*="SearchResults"] td[colspan*="1"] {
     visibility: hidden;
     }
+
+.form-control {
+    border-radius: 0;
+}
+
+.back_home {
+    margin-bottom: 2rem;
+    padding-right: 0;
+}
