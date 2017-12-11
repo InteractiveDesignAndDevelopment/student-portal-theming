@@ -25,7 +25,7 @@
     "postbuild:post-css:student-main": "postcss build/student/Public/global/css/Main.css -u autoprefixer postcss-csso -o build/student/Public/global/css/Main.css",
     "postbuild:copy-fonts": "copyfiles -f src/fonts/orkney/*.* build/portal/Public/global/fonts/orkney",
     "postbuild:copy-toby": "cp-file-cli src/images/toby.jpg build/student/Public/global/images/login_img1.jpg",
-    "postbuild:copy-links": "cp-file-cli src/image/links.jpg build/portal/Public/global/images/links/links.jpg",
+    "postbuild:copy-links": "cp-file-cli src/images/links.jpg build/portal/Public/global/images/links/links.jpg",
     "postbuild:copy-student-logo-png": "cp-file-cli src/images/mymercer.png build/student/Public/global/images/logo.png",
     "postbuild:copy-portal-logo-png": "cp-file-cli src/images/mymercer.png build/portal/Public/global/images/logo.png",
     "postbuild:copy-staff-styles-images-logo-svg": "cp-file-cli src/images/mymercer.svg build/staff/Styles/images/CampusNexus-SVG.svg",
