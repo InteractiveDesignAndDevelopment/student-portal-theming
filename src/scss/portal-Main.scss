@@ -306,6 +306,6 @@ td[class*="SelT"].tabon {
 //   Y888P  88   YD YP   YP Y8888D' Y88888P Y8888P'  `Y88P'   `Y88P'  YP   YD 
 
 // Final Gradebook grades hard coded width was 42 px. This makes it full-width. Chose 100% instead of auto to cover any future updates. 
-select[id*="MyFinalGrades"] {
-    width: 100% !important;
-}                                                                 
+//select[id*="MyFinalGrades"] {
+//    width: 100% !important;
+//}                                                                 
