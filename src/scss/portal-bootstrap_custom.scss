@@ -230,6 +230,10 @@ ul.QuickLinks_social-share li a:hover {
     background-color: $light-grey;
 }
 
+.carousel-indicators{
+    position:static;
+}
+
 .carousel-indicators .active {
     width: 10px;
     height: 10px;
